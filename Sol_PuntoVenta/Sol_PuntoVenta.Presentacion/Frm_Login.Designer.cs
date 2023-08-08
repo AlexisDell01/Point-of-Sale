@@ -30,14 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Login));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Pct_logo = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.Txt_login_us = new System.Windows.Forms.TextBox();
             this.Txt_Password_us = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.Btn_Acceder = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.Pct_logo = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Pct_logo)).BeginInit();
             this.SuspendLayout();
@@ -54,11 +54,32 @@
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // Pct_logo
+            // 
+            this.Pct_logo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Pct_logo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Pct_logo.Image = ((System.Drawing.Image)(resources.GetObject("Pct_logo.Image")));
+            this.Pct_logo.Location = new System.Drawing.Point(12, 74);
+            this.Pct_logo.Name = "Pct_logo";
+            this.Pct_logo.Size = new System.Drawing.Size(137, 133);
+            this.Pct_logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Pct_logo.TabIndex = 1;
+            this.Pct_logo.TabStop = false;
+            this.Pct_logo.Click += new System.EventHandler(this.Pct_logo_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(38, 152);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 13);
+            this.label1.TabIndex = 2;
+            // 
             // label2
             // 
             this.label2.Dock = System.Windows.Forms.DockStyle.Top;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(53)))), ((int)(((byte)(66)))));
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label2.Location = new System.Drawing.Point(167, 0);
             this.label2.Name = "label2";
@@ -81,6 +102,7 @@
             // 
             // Txt_login_us
             // 
+            this.Txt_login_us.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
             this.Txt_login_us.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_login_us.Location = new System.Drawing.Point(267, 92);
             this.Txt_login_us.MaxLength = 20;
@@ -90,6 +112,7 @@
             // 
             // Txt_Password_us
             // 
+            this.Txt_Password_us.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
             this.Txt_Password_us.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_Password_us.Location = new System.Drawing.Point(267, 181);
             this.Txt_Password_us.MaxLength = 20;
@@ -123,27 +146,6 @@
             this.Btn_Acceder.Text = "Acceder";
             this.Btn_Acceder.UseVisualStyleBackColor = false;
             this.Btn_Acceder.Click += new System.EventHandler(this.Btn_Acceder_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(38, 152);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 13);
-            this.label1.TabIndex = 2;
-            // 
-            // Pct_logo
-            // 
-            this.Pct_logo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Pct_logo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Pct_logo.Image = ((System.Drawing.Image)(resources.GetObject("Pct_logo.Image")));
-            this.Pct_logo.Location = new System.Drawing.Point(12, 92);
-            this.Pct_logo.Name = "Pct_logo";
-            this.Pct_logo.Size = new System.Drawing.Size(137, 113);
-            this.Pct_logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Pct_logo.TabIndex = 1;
-            this.Pct_logo.TabStop = false;
-            this.Pct_logo.Click += new System.EventHandler(this.Pct_logo_Click);
             // 
             // Frm_Login
             // 

@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Productos));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.Tbc_principal = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.Lbl_totalregistros = new System.Windows.Forms.Label();
@@ -64,13 +64,6 @@
             this.Btn_buscar3 = new System.Windows.Forms.Button();
             this.Txt_buscar3 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.Pnl_Listado_2 = new System.Windows.Forms.Panel();
-            this.Btn_retornar2 = new System.Windows.Forms.Button();
-            this.Dgv_2 = new System.Windows.Forms.DataGridView();
-            this.label12 = new System.Windows.Forms.Label();
-            this.Btn_buscar2 = new System.Windows.Forms.Button();
-            this.Txt_buscar2 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
             this.Pnl_Listado_1 = new System.Windows.Forms.Panel();
             this.Btn_retornar1 = new System.Windows.Forms.Button();
             this.Dgv_1 = new System.Windows.Forms.DataGridView();
@@ -78,6 +71,13 @@
             this.Btn_buscar1 = new System.Windows.Forms.Button();
             this.Txt_buscar1 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.Pnl_Listado_2 = new System.Windows.Forms.Panel();
+            this.Btn_retornar2 = new System.Windows.Forms.Button();
+            this.Dgv_2 = new System.Windows.Forms.DataGridView();
+            this.label12 = new System.Windows.Forms.Label();
+            this.Btn_buscar2 = new System.Windows.Forms.Button();
+            this.Txt_buscar2 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
             this.Dgv_PuntosVentas = new System.Windows.Forms.DataGridView();
             this.Txt_observacion = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -119,10 +119,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_4)).BeginInit();
             this.Pnl_Listado_3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_3)).BeginInit();
-            this.Pnl_Listado_2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Dgv_2)).BeginInit();
             this.Pnl_Listado_1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_1)).BeginInit();
+            this.Pnl_Listado_2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Dgv_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_PuntosVentas)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Pct_imagen)).BeginInit();
@@ -134,11 +134,10 @@
             this.Tbc_principal.Controls.Add(this.tabPage1);
             this.Tbc_principal.Controls.Add(this.tabPage2);
             this.Tbc_principal.ItemSize = new System.Drawing.Size(100, 30);
-            this.Tbc_principal.Location = new System.Drawing.Point(16, 64);
-            this.Tbc_principal.Margin = new System.Windows.Forms.Padding(4);
+            this.Tbc_principal.Location = new System.Drawing.Point(12, 52);
             this.Tbc_principal.Name = "Tbc_principal";
             this.Tbc_principal.SelectedIndex = 0;
-            this.Tbc_principal.Size = new System.Drawing.Size(1416, 441);
+            this.Tbc_principal.Size = new System.Drawing.Size(1062, 358);
             this.Tbc_principal.TabIndex = 0;
             // 
             // tabPage1
@@ -149,10 +148,9 @@
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.Dgv_Listado);
             this.tabPage1.Location = new System.Drawing.Point(4, 34);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage1.Size = new System.Drawing.Size(1408, 403);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(1054, 320);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Consultas";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -162,10 +160,9 @@
             this.Lbl_totalregistros.AutoSize = true;
             this.Lbl_totalregistros.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_totalregistros.ForeColor = System.Drawing.Color.DimGray;
-            this.Lbl_totalregistros.Location = new System.Drawing.Point(1252, 343);
-            this.Lbl_totalregistros.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Lbl_totalregistros.Location = new System.Drawing.Point(939, 279);
             this.Lbl_totalregistros.Name = "Lbl_totalregistros";
-            this.Lbl_totalregistros.Size = new System.Drawing.Size(133, 17);
+            this.Lbl_totalregistros.Size = new System.Drawing.Size(103, 13);
             this.Lbl_totalregistros.TabIndex = 4;
             this.Lbl_totalregistros.Text = "Total registros: 0";
             this.Lbl_totalregistros.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -175,10 +172,9 @@
             this.Btn_buscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(105)))), ((int)(((byte)(141)))));
             this.Btn_buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_buscar.ForeColor = System.Drawing.Color.White;
-            this.Btn_buscar.Location = new System.Drawing.Point(393, 43);
-            this.Btn_buscar.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_buscar.Location = new System.Drawing.Point(295, 35);
             this.Btn_buscar.Name = "Btn_buscar";
-            this.Btn_buscar.Size = new System.Drawing.Size(107, 33);
+            this.Btn_buscar.Size = new System.Drawing.Size(80, 27);
             this.Btn_buscar.TabIndex = 3;
             this.Btn_buscar.Text = "Buscar";
             this.Btn_buscar.UseVisualStyleBackColor = false;
@@ -186,19 +182,17 @@
             // 
             // Txt_buscar
             // 
-            this.Txt_buscar.Location = new System.Drawing.Point(84, 47);
-            this.Txt_buscar.Margin = new System.Windows.Forms.Padding(4);
+            this.Txt_buscar.Location = new System.Drawing.Point(63, 38);
             this.Txt_buscar.Name = "Txt_buscar";
-            this.Txt_buscar.Size = new System.Drawing.Size(300, 22);
+            this.Txt_buscar.Size = new System.Drawing.Size(226, 20);
             this.Txt_buscar.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(19, 52);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(14, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 16);
+            this.label1.Size = new System.Drawing.Size(43, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Buscar:";
             // 
@@ -207,29 +201,28 @@
             this.Dgv_Listado.AllowUserToAddRows = false;
             this.Dgv_Listado.AllowUserToDeleteRows = false;
             this.Dgv_Listado.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle35.BackColor = System.Drawing.Color.LightCyan;
-            dataGridViewCellStyle35.ForeColor = System.Drawing.Color.Black;
-            this.Dgv_Listado.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle35;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.LightCyan;
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            this.Dgv_Listado.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.Dgv_Listado.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Dgv_Listado.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
-            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
-            dataGridViewCellStyle36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle36.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle36.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle36.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle36.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Dgv_Listado.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle36;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Dgv_Listado.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.Dgv_Listado.ColumnHeadersHeight = 35;
             this.Dgv_Listado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.Dgv_Listado.EnableHeadersVisualStyles = false;
-            this.Dgv_Listado.Location = new System.Drawing.Point(20, 84);
-            this.Dgv_Listado.Margin = new System.Windows.Forms.Padding(4);
+            this.Dgv_Listado.Location = new System.Drawing.Point(15, 68);
             this.Dgv_Listado.Name = "Dgv_Listado";
             this.Dgv_Listado.ReadOnly = true;
             this.Dgv_Listado.RowHeadersWidth = 51;
             this.Dgv_Listado.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.Dgv_Listado.Size = new System.Drawing.Size(1369, 240);
+            this.Dgv_Listado.Size = new System.Drawing.Size(1027, 195);
             this.Dgv_Listado.TabIndex = 0;
             this.Dgv_Listado.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Dgv_Listado_CellDoubleClick);
             // 
@@ -263,27 +256,25 @@
             this.tabPage2.Controls.Add(this.label2);
             this.tabPage2.Controls.Add(this.groupBox1);
             this.tabPage2.Location = new System.Drawing.Point(4, 34);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage2.Size = new System.Drawing.Size(1408, 403);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1054, 320);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Mantenimiento";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // Pnl_Listado_4
             // 
-            this.Pnl_Listado_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Pnl_Listado_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(167)))), ((int)(((byte)(169)))));
             this.Pnl_Listado_4.Controls.Add(this.Btn_retornar4);
             this.Pnl_Listado_4.Controls.Add(this.Dgv_4);
             this.Pnl_Listado_4.Controls.Add(this.label16);
             this.Pnl_Listado_4.Controls.Add(this.Btn_buscar4);
             this.Pnl_Listado_4.Controls.Add(this.Txt_buscar4);
             this.Pnl_Listado_4.Controls.Add(this.label17);
-            this.Pnl_Listado_4.Location = new System.Drawing.Point(519, 345);
-            this.Pnl_Listado_4.Margin = new System.Windows.Forms.Padding(4);
+            this.Pnl_Listado_4.Location = new System.Drawing.Point(389, 74);
             this.Pnl_Listado_4.Name = "Pnl_Listado_4";
-            this.Pnl_Listado_4.Size = new System.Drawing.Size(411, 252);
+            this.Pnl_Listado_4.Size = new System.Drawing.Size(308, 229);
             this.Pnl_Listado_4.TabIndex = 28;
             this.Pnl_Listado_4.Visible = false;
             // 
@@ -292,10 +283,9 @@
             this.Btn_retornar4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(198)))), ((int)(((byte)(198)))));
             this.Btn_retornar4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_retornar4.Image = ((System.Drawing.Image)(resources.GetObject("Btn_retornar4.Image")));
-            this.Btn_retornar4.Location = new System.Drawing.Point(349, 34);
-            this.Btn_retornar4.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_retornar4.Location = new System.Drawing.Point(260, 44);
             this.Btn_retornar4.Name = "Btn_retornar4";
-            this.Btn_retornar4.Size = new System.Drawing.Size(39, 33);
+            this.Btn_retornar4.Size = new System.Drawing.Size(29, 27);
             this.Btn_retornar4.TabIndex = 13;
             this.Btn_retornar4.UseVisualStyleBackColor = true;
             this.Btn_retornar4.Click += new System.EventHandler(this.Btn_retornar4_Click);
@@ -305,29 +295,29 @@
             this.Dgv_4.AllowUserToAddRows = false;
             this.Dgv_4.AllowUserToDeleteRows = false;
             this.Dgv_4.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle25.BackColor = System.Drawing.Color.LightCyan;
-            dataGridViewCellStyle25.ForeColor = System.Drawing.Color.Black;
-            this.Dgv_4.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle25;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.LightCyan;
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            this.Dgv_4.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
+            this.Dgv_4.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
             this.Dgv_4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Dgv_4.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
-            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
-            dataGridViewCellStyle26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Dgv_4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle26;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Dgv_4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.Dgv_4.ColumnHeadersHeight = 35;
             this.Dgv_4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.Dgv_4.EnableHeadersVisualStyles = false;
-            this.Dgv_4.Location = new System.Drawing.Point(23, 86);
-            this.Dgv_4.Margin = new System.Windows.Forms.Padding(4);
+            this.Dgv_4.Location = new System.Drawing.Point(17, 90);
             this.Dgv_4.Name = "Dgv_4";
             this.Dgv_4.ReadOnly = true;
             this.Dgv_4.RowHeadersWidth = 51;
             this.Dgv_4.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.Dgv_4.Size = new System.Drawing.Size(365, 148);
+            this.Dgv_4.Size = new System.Drawing.Size(274, 120);
             this.Dgv_4.TabIndex = 12;
             this.Dgv_4.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Dgv_4_CellDoubleClick);
             // 
@@ -335,10 +325,10 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(28, 10);
-            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.Location = new System.Drawing.Point(14, 10);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(300, 18);
+            this.label16.Size = new System.Drawing.Size(245, 15);
             this.label16.TabIndex = 11;
             this.label16.Text = "LISTADO DE ÁREAS DE DESPACHOS";
             // 
@@ -348,29 +338,27 @@
             this.Btn_buscar4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn_buscar4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_buscar4.Image = global::Sol_PuntoVenta.Presentacion.Properties.Resources.mignifying_glass;
-            this.Btn_buscar4.Location = new System.Drawing.Point(303, 36);
-            this.Btn_buscar4.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_buscar4.Location = new System.Drawing.Point(225, 44);
             this.Btn_buscar4.Name = "Btn_buscar4";
-            this.Btn_buscar4.Size = new System.Drawing.Size(39, 33);
+            this.Btn_buscar4.Size = new System.Drawing.Size(29, 27);
             this.Btn_buscar4.TabIndex = 10;
             this.Btn_buscar4.UseVisualStyleBackColor = false;
             this.Btn_buscar4.Click += new System.EventHandler(this.Btn_buscar4_Click);
             // 
             // Txt_buscar4
             // 
-            this.Txt_buscar4.Location = new System.Drawing.Point(84, 41);
-            this.Txt_buscar4.Margin = new System.Windows.Forms.Padding(4);
+            this.Txt_buscar4.Location = new System.Drawing.Point(61, 48);
             this.Txt_buscar4.Name = "Txt_buscar4";
-            this.Txt_buscar4.Size = new System.Drawing.Size(209, 22);
+            this.Txt_buscar4.Size = new System.Drawing.Size(158, 20);
             this.Txt_buscar4.TabIndex = 1;
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(19, 44);
-            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label17.ForeColor = System.Drawing.Color.White;
+            this.label17.Location = new System.Drawing.Point(14, 51);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(52, 16);
+            this.label17.Size = new System.Drawing.Size(43, 13);
             this.label17.TabIndex = 0;
             this.label17.Text = "Buscar:";
             // 
@@ -383,10 +371,9 @@
             this.Pnl_Listado_3.Controls.Add(this.Btn_buscar3);
             this.Pnl_Listado_3.Controls.Add(this.Txt_buscar3);
             this.Pnl_Listado_3.Controls.Add(this.label15);
-            this.Pnl_Listado_3.Location = new System.Drawing.Point(1356, 28);
-            this.Pnl_Listado_3.Margin = new System.Windows.Forms.Padding(4);
+            this.Pnl_Listado_3.Location = new System.Drawing.Point(1017, 23);
             this.Pnl_Listado_3.Name = "Pnl_Listado_3";
-            this.Pnl_Listado_3.Size = new System.Drawing.Size(708, 286);
+            this.Pnl_Listado_3.Size = new System.Drawing.Size(531, 232);
             this.Pnl_Listado_3.TabIndex = 27;
             this.Pnl_Listado_3.Visible = false;
             // 
@@ -395,10 +382,9 @@
             this.Btn_retornar3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(198)))), ((int)(((byte)(198)))));
             this.Btn_retornar3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_retornar3.Image = ((System.Drawing.Image)(resources.GetObject("Btn_retornar3.Image")));
-            this.Btn_retornar3.Location = new System.Drawing.Point(349, 34);
-            this.Btn_retornar3.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_retornar3.Location = new System.Drawing.Point(262, 28);
             this.Btn_retornar3.Name = "Btn_retornar3";
-            this.Btn_retornar3.Size = new System.Drawing.Size(39, 33);
+            this.Btn_retornar3.Size = new System.Drawing.Size(29, 27);
             this.Btn_retornar3.TabIndex = 13;
             this.Btn_retornar3.UseVisualStyleBackColor = true;
             this.Btn_retornar3.Click += new System.EventHandler(this.Btn_retornar3_Click);
@@ -408,29 +394,28 @@
             this.Dgv_3.AllowUserToAddRows = false;
             this.Dgv_3.AllowUserToDeleteRows = false;
             this.Dgv_3.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle27.BackColor = System.Drawing.Color.LightCyan;
-            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.Black;
-            this.Dgv_3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle27;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.LightCyan;
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            this.Dgv_3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
             this.Dgv_3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Dgv_3.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
-            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
-            dataGridViewCellStyle28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle28.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Dgv_3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle28;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Dgv_3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.Dgv_3.ColumnHeadersHeight = 35;
             this.Dgv_3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.Dgv_3.EnableHeadersVisualStyles = false;
-            this.Dgv_3.Location = new System.Drawing.Point(23, 86);
-            this.Dgv_3.Margin = new System.Windows.Forms.Padding(4);
+            this.Dgv_3.Location = new System.Drawing.Point(17, 70);
             this.Dgv_3.Name = "Dgv_3";
             this.Dgv_3.ReadOnly = true;
             this.Dgv_3.RowHeadersWidth = 51;
             this.Dgv_3.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.Dgv_3.Size = new System.Drawing.Size(663, 183);
+            this.Dgv_3.Size = new System.Drawing.Size(497, 149);
             this.Dgv_3.TabIndex = 12;
             this.Dgv_3.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Dgv_3_CellDoubleClick);
             // 
@@ -438,10 +423,9 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(28, 10);
-            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.Location = new System.Drawing.Point(21, 8);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(216, 18);
+            this.label14.Size = new System.Drawing.Size(180, 15);
             this.label14.TabIndex = 11;
             this.label14.Text = "LISTADO DE SUBFAMILIAS";
             // 
@@ -451,134 +435,28 @@
             this.Btn_buscar3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn_buscar3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_buscar3.Image = global::Sol_PuntoVenta.Presentacion.Properties.Resources.mignifying_glass;
-            this.Btn_buscar3.Location = new System.Drawing.Point(303, 36);
-            this.Btn_buscar3.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_buscar3.Location = new System.Drawing.Point(227, 29);
             this.Btn_buscar3.Name = "Btn_buscar3";
-            this.Btn_buscar3.Size = new System.Drawing.Size(39, 33);
+            this.Btn_buscar3.Size = new System.Drawing.Size(29, 27);
             this.Btn_buscar3.TabIndex = 10;
             this.Btn_buscar3.UseVisualStyleBackColor = false;
             this.Btn_buscar3.Click += new System.EventHandler(this.Btn_buscar3_Click);
             // 
             // Txt_buscar3
             // 
-            this.Txt_buscar3.Location = new System.Drawing.Point(84, 41);
-            this.Txt_buscar3.Margin = new System.Windows.Forms.Padding(4);
+            this.Txt_buscar3.Location = new System.Drawing.Point(63, 33);
             this.Txt_buscar3.Name = "Txt_buscar3";
-            this.Txt_buscar3.Size = new System.Drawing.Size(209, 22);
+            this.Txt_buscar3.Size = new System.Drawing.Size(158, 20);
             this.Txt_buscar3.TabIndex = 1;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(19, 44);
-            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label15.Location = new System.Drawing.Point(14, 36);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(52, 16);
+            this.label15.Size = new System.Drawing.Size(43, 13);
             this.label15.TabIndex = 0;
             this.label15.Text = "Buscar:";
-            // 
-            // Pnl_Listado_2
-            // 
-            this.Pnl_Listado_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.Pnl_Listado_2.Controls.Add(this.Btn_retornar2);
-            this.Pnl_Listado_2.Controls.Add(this.Dgv_2);
-            this.Pnl_Listado_2.Controls.Add(this.label12);
-            this.Pnl_Listado_2.Controls.Add(this.Btn_buscar2);
-            this.Pnl_Listado_2.Controls.Add(this.Txt_buscar2);
-            this.Pnl_Listado_2.Controls.Add(this.label13);
-            this.Pnl_Listado_2.Location = new System.Drawing.Point(937, 345);
-            this.Pnl_Listado_2.Margin = new System.Windows.Forms.Padding(4);
-            this.Pnl_Listado_2.Name = "Pnl_Listado_2";
-            this.Pnl_Listado_2.Size = new System.Drawing.Size(411, 286);
-            this.Pnl_Listado_2.TabIndex = 26;
-            this.Pnl_Listado_2.Visible = false;
-            // 
-            // Btn_retornar2
-            // 
-            this.Btn_retornar2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(198)))), ((int)(((byte)(198)))));
-            this.Btn_retornar2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_retornar2.Image = ((System.Drawing.Image)(resources.GetObject("Btn_retornar2.Image")));
-            this.Btn_retornar2.Location = new System.Drawing.Point(349, 34);
-            this.Btn_retornar2.Margin = new System.Windows.Forms.Padding(4);
-            this.Btn_retornar2.Name = "Btn_retornar2";
-            this.Btn_retornar2.Size = new System.Drawing.Size(39, 33);
-            this.Btn_retornar2.TabIndex = 13;
-            this.Btn_retornar2.UseVisualStyleBackColor = true;
-            this.Btn_retornar2.Click += new System.EventHandler(this.Btn_retornar2_Click);
-            // 
-            // Dgv_2
-            // 
-            this.Dgv_2.AllowUserToAddRows = false;
-            this.Dgv_2.AllowUserToDeleteRows = false;
-            this.Dgv_2.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle31.BackColor = System.Drawing.Color.LightCyan;
-            dataGridViewCellStyle31.ForeColor = System.Drawing.Color.Black;
-            this.Dgv_2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle31;
-            this.Dgv_2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Dgv_2.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
-            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
-            dataGridViewCellStyle32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle32.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Dgv_2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle32;
-            this.Dgv_2.ColumnHeadersHeight = 35;
-            this.Dgv_2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.Dgv_2.EnableHeadersVisualStyles = false;
-            this.Dgv_2.Location = new System.Drawing.Point(23, 86);
-            this.Dgv_2.Margin = new System.Windows.Forms.Padding(4);
-            this.Dgv_2.Name = "Dgv_2";
-            this.Dgv_2.ReadOnly = true;
-            this.Dgv_2.RowHeadersWidth = 51;
-            this.Dgv_2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.Dgv_2.Size = new System.Drawing.Size(365, 183);
-            this.Dgv_2.TabIndex = 12;
-            this.Dgv_2.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Dgv_2_CellDoubleClick);
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(28, 10);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(184, 18);
-            this.label12.TabIndex = 11;
-            this.label12.Text = "LISTADO DE MEDIDAS";
-            // 
-            // Btn_buscar2
-            // 
-            this.Btn_buscar2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
-            this.Btn_buscar2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(198)))), ((int)(((byte)(198)))));
-            this.Btn_buscar2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_buscar2.Image = global::Sol_PuntoVenta.Presentacion.Properties.Resources.mignifying_glass;
-            this.Btn_buscar2.Location = new System.Drawing.Point(303, 36);
-            this.Btn_buscar2.Margin = new System.Windows.Forms.Padding(4);
-            this.Btn_buscar2.Name = "Btn_buscar2";
-            this.Btn_buscar2.Size = new System.Drawing.Size(39, 33);
-            this.Btn_buscar2.TabIndex = 10;
-            this.Btn_buscar2.UseVisualStyleBackColor = false;
-            this.Btn_buscar2.Click += new System.EventHandler(this.Btn_buscar2_Click);
-            // 
-            // Txt_buscar2
-            // 
-            this.Txt_buscar2.Location = new System.Drawing.Point(84, 41);
-            this.Txt_buscar2.Margin = new System.Windows.Forms.Padding(4);
-            this.Txt_buscar2.Name = "Txt_buscar2";
-            this.Txt_buscar2.Size = new System.Drawing.Size(209, 22);
-            this.Txt_buscar2.TabIndex = 1;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(19, 44);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(52, 16);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "Buscar:";
             // 
             // Pnl_Listado_1
             // 
@@ -589,10 +467,9 @@
             this.Pnl_Listado_1.Controls.Add(this.Btn_buscar1);
             this.Pnl_Listado_1.Controls.Add(this.Txt_buscar1);
             this.Pnl_Listado_1.Controls.Add(this.label5);
-            this.Pnl_Listado_1.Location = new System.Drawing.Point(1356, 345);
-            this.Pnl_Listado_1.Margin = new System.Windows.Forms.Padding(4);
+            this.Pnl_Listado_1.Location = new System.Drawing.Point(1017, 280);
             this.Pnl_Listado_1.Name = "Pnl_Listado_1";
-            this.Pnl_Listado_1.Size = new System.Drawing.Size(411, 286);
+            this.Pnl_Listado_1.Size = new System.Drawing.Size(308, 232);
             this.Pnl_Listado_1.TabIndex = 10;
             this.Pnl_Listado_1.Visible = false;
             // 
@@ -601,10 +478,9 @@
             this.Btn_retornar1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(198)))), ((int)(((byte)(198)))));
             this.Btn_retornar1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_retornar1.Image = ((System.Drawing.Image)(resources.GetObject("Btn_retornar1.Image")));
-            this.Btn_retornar1.Location = new System.Drawing.Point(349, 34);
-            this.Btn_retornar1.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_retornar1.Location = new System.Drawing.Point(262, 28);
             this.Btn_retornar1.Name = "Btn_retornar1";
-            this.Btn_retornar1.Size = new System.Drawing.Size(39, 33);
+            this.Btn_retornar1.Size = new System.Drawing.Size(29, 27);
             this.Btn_retornar1.TabIndex = 13;
             this.Btn_retornar1.UseVisualStyleBackColor = true;
             this.Btn_retornar1.Click += new System.EventHandler(this.Btn_retornar1_Click);
@@ -614,29 +490,28 @@
             this.Dgv_1.AllowUserToAddRows = false;
             this.Dgv_1.AllowUserToDeleteRows = false;
             this.Dgv_1.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle29.BackColor = System.Drawing.Color.LightCyan;
-            dataGridViewCellStyle29.ForeColor = System.Drawing.Color.Black;
-            this.Dgv_1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle29;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.LightCyan;
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            this.Dgv_1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
             this.Dgv_1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Dgv_1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
-            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
-            dataGridViewCellStyle30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle30.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Dgv_1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle30;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Dgv_1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.Dgv_1.ColumnHeadersHeight = 35;
             this.Dgv_1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.Dgv_1.EnableHeadersVisualStyles = false;
-            this.Dgv_1.Location = new System.Drawing.Point(23, 86);
-            this.Dgv_1.Margin = new System.Windows.Forms.Padding(4);
+            this.Dgv_1.Location = new System.Drawing.Point(17, 70);
             this.Dgv_1.Name = "Dgv_1";
             this.Dgv_1.ReadOnly = true;
             this.Dgv_1.RowHeadersWidth = 51;
             this.Dgv_1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.Dgv_1.Size = new System.Drawing.Size(365, 183);
+            this.Dgv_1.Size = new System.Drawing.Size(274, 149);
             this.Dgv_1.TabIndex = 12;
             this.Dgv_1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Dgv_1_CellDoubleClick);
             // 
@@ -644,10 +519,9 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(28, 10);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(21, 8);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(179, 18);
+            this.label6.Size = new System.Drawing.Size(147, 15);
             this.label6.TabIndex = 11;
             this.label6.Text = "LISTADO DE MARCAS";
             // 
@@ -657,79 +531,169 @@
             this.Btn_buscar1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn_buscar1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_buscar1.Image = global::Sol_PuntoVenta.Presentacion.Properties.Resources.mignifying_glass;
-            this.Btn_buscar1.Location = new System.Drawing.Point(303, 36);
-            this.Btn_buscar1.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_buscar1.Location = new System.Drawing.Point(227, 29);
             this.Btn_buscar1.Name = "Btn_buscar1";
-            this.Btn_buscar1.Size = new System.Drawing.Size(39, 33);
+            this.Btn_buscar1.Size = new System.Drawing.Size(29, 27);
             this.Btn_buscar1.TabIndex = 10;
             this.Btn_buscar1.UseVisualStyleBackColor = false;
             this.Btn_buscar1.Click += new System.EventHandler(this.Btn_buscar1_Click);
             // 
             // Txt_buscar1
             // 
-            this.Txt_buscar1.Location = new System.Drawing.Point(84, 41);
-            this.Txt_buscar1.Margin = new System.Windows.Forms.Padding(4);
+            this.Txt_buscar1.Location = new System.Drawing.Point(63, 33);
             this.Txt_buscar1.Name = "Txt_buscar1";
-            this.Txt_buscar1.Size = new System.Drawing.Size(209, 22);
+            this.Txt_buscar1.Size = new System.Drawing.Size(158, 20);
             this.Txt_buscar1.TabIndex = 1;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(19, 44);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(14, 36);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(52, 16);
+            this.label5.Size = new System.Drawing.Size(43, 13);
             this.label5.TabIndex = 0;
             this.label5.Text = "Buscar:";
+            // 
+            // Pnl_Listado_2
+            // 
+            this.Pnl_Listado_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Pnl_Listado_2.Controls.Add(this.Btn_retornar2);
+            this.Pnl_Listado_2.Controls.Add(this.Dgv_2);
+            this.Pnl_Listado_2.Controls.Add(this.label12);
+            this.Pnl_Listado_2.Controls.Add(this.Btn_buscar2);
+            this.Pnl_Listado_2.Controls.Add(this.Txt_buscar2);
+            this.Pnl_Listado_2.Controls.Add(this.label13);
+            this.Pnl_Listado_2.Location = new System.Drawing.Point(692, 51);
+            this.Pnl_Listado_2.Name = "Pnl_Listado_2";
+            this.Pnl_Listado_2.Size = new System.Drawing.Size(308, 232);
+            this.Pnl_Listado_2.TabIndex = 26;
+            this.Pnl_Listado_2.Visible = false;
+            // 
+            // Btn_retornar2
+            // 
+            this.Btn_retornar2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(198)))), ((int)(((byte)(198)))));
+            this.Btn_retornar2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_retornar2.Image = ((System.Drawing.Image)(resources.GetObject("Btn_retornar2.Image")));
+            this.Btn_retornar2.Location = new System.Drawing.Point(262, 28);
+            this.Btn_retornar2.Name = "Btn_retornar2";
+            this.Btn_retornar2.Size = new System.Drawing.Size(29, 27);
+            this.Btn_retornar2.TabIndex = 13;
+            this.Btn_retornar2.UseVisualStyleBackColor = true;
+            this.Btn_retornar2.Click += new System.EventHandler(this.Btn_retornar2_Click);
+            // 
+            // Dgv_2
+            // 
+            this.Dgv_2.AllowUserToAddRows = false;
+            this.Dgv_2.AllowUserToDeleteRows = false;
+            this.Dgv_2.AllowUserToOrderColumns = true;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.LightCyan;
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
+            this.Dgv_2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle9;
+            this.Dgv_2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Dgv_2.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Dgv_2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            this.Dgv_2.ColumnHeadersHeight = 35;
+            this.Dgv_2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.Dgv_2.EnableHeadersVisualStyles = false;
+            this.Dgv_2.Location = new System.Drawing.Point(17, 70);
+            this.Dgv_2.Name = "Dgv_2";
+            this.Dgv_2.ReadOnly = true;
+            this.Dgv_2.RowHeadersWidth = 51;
+            this.Dgv_2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.Dgv_2.Size = new System.Drawing.Size(274, 149);
+            this.Dgv_2.TabIndex = 12;
+            this.Dgv_2.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Dgv_2_CellDoubleClick);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(21, 8);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(153, 15);
+            this.label12.TabIndex = 11;
+            this.label12.Text = "LISTADO DE MEDIDAS";
+            // 
+            // Btn_buscar2
+            // 
+            this.Btn_buscar2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
+            this.Btn_buscar2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(198)))), ((int)(((byte)(198)))));
+            this.Btn_buscar2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_buscar2.Image = global::Sol_PuntoVenta.Presentacion.Properties.Resources.mignifying_glass;
+            this.Btn_buscar2.Location = new System.Drawing.Point(227, 29);
+            this.Btn_buscar2.Name = "Btn_buscar2";
+            this.Btn_buscar2.Size = new System.Drawing.Size(29, 27);
+            this.Btn_buscar2.TabIndex = 10;
+            this.Btn_buscar2.UseVisualStyleBackColor = false;
+            this.Btn_buscar2.Click += new System.EventHandler(this.Btn_buscar2_Click);
+            // 
+            // Txt_buscar2
+            // 
+            this.Txt_buscar2.Location = new System.Drawing.Point(63, 33);
+            this.Txt_buscar2.Name = "Txt_buscar2";
+            this.Txt_buscar2.Size = new System.Drawing.Size(158, 20);
+            this.Txt_buscar2.TabIndex = 1;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(14, 36);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(43, 13);
+            this.label13.TabIndex = 0;
+            this.label13.Text = "Buscar:";
             // 
             // Dgv_PuntosVentas
             // 
             this.Dgv_PuntosVentas.AllowUserToAddRows = false;
             this.Dgv_PuntosVentas.AllowUserToDeleteRows = false;
             this.Dgv_PuntosVentas.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle33.BackColor = System.Drawing.Color.LightCyan;
-            dataGridViewCellStyle33.ForeColor = System.Drawing.Color.Black;
-            this.Dgv_PuntosVentas.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle33;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.LightCyan;
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.Black;
+            this.Dgv_PuntosVentas.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle11;
             this.Dgv_PuntosVentas.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Dgv_PuntosVentas.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
-            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
-            dataGridViewCellStyle34.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle34.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle34.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle34.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle34.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Dgv_PuntosVentas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle34;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Dgv_PuntosVentas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
             this.Dgv_PuntosVentas.ColumnHeadersHeight = 35;
             this.Dgv_PuntosVentas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.Dgv_PuntosVentas.EnableHeadersVisualStyles = false;
-            this.Dgv_PuntosVentas.Location = new System.Drawing.Point(827, 27);
-            this.Dgv_PuntosVentas.Margin = new System.Windows.Forms.Padding(4);
+            this.Dgv_PuntosVentas.Location = new System.Drawing.Point(620, 22);
             this.Dgv_PuntosVentas.Name = "Dgv_PuntosVentas";
             this.Dgv_PuntosVentas.RowHeadersWidth = 51;
             this.Dgv_PuntosVentas.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.Dgv_PuntosVentas.Size = new System.Drawing.Size(405, 278);
+            this.Dgv_PuntosVentas.Size = new System.Drawing.Size(304, 226);
             this.Dgv_PuntosVentas.TabIndex = 25;
             // 
             // Txt_observacion
             // 
-            this.Txt_observacion.Location = new System.Drawing.Point(169, 294);
-            this.Txt_observacion.Margin = new System.Windows.Forms.Padding(4);
+            this.Txt_observacion.Location = new System.Drawing.Point(127, 239);
             this.Txt_observacion.MaxLength = 30;
             this.Txt_observacion.Multiline = true;
             this.Txt_observacion.Name = "Txt_observacion";
             this.Txt_observacion.ReadOnly = true;
-            this.Txt_observacion.Size = new System.Drawing.Size(343, 42);
+            this.Txt_observacion.Size = new System.Drawing.Size(258, 35);
             this.Txt_observacion.TabIndex = 24;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(68, 298);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Location = new System.Drawing.Point(51, 242);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(87, 16);
+            this.label11.Size = new System.Drawing.Size(70, 13);
             this.label11.TabIndex = 23;
             this.label11.Text = "Observación:";
             // 
@@ -739,10 +703,9 @@
             this.Btn_lupa_ad.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn_lupa_ad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_lupa_ad.Image = global::Sol_PuntoVenta.Presentacion.Properties.Resources.mignifying_glass;
-            this.Btn_lupa_ad.Location = new System.Drawing.Point(475, 242);
-            this.Btn_lupa_ad.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_lupa_ad.Location = new System.Drawing.Point(356, 197);
             this.Btn_lupa_ad.Name = "Btn_lupa_ad";
-            this.Btn_lupa_ad.Size = new System.Drawing.Size(39, 33);
+            this.Btn_lupa_ad.Size = new System.Drawing.Size(29, 27);
             this.Btn_lupa_ad.TabIndex = 20;
             this.Btn_lupa_ad.UseVisualStyleBackColor = false;
             this.Btn_lupa_ad.Visible = false;
@@ -750,20 +713,18 @@
             // 
             // Txt_descripcion_ad
             // 
-            this.Txt_descripcion_ad.Location = new System.Drawing.Point(171, 247);
-            this.Txt_descripcion_ad.Margin = new System.Windows.Forms.Padding(4);
+            this.Txt_descripcion_ad.Location = new System.Drawing.Point(128, 201);
             this.Txt_descripcion_ad.Name = "Txt_descripcion_ad";
             this.Txt_descripcion_ad.ReadOnly = true;
-            this.Txt_descripcion_ad.Size = new System.Drawing.Size(297, 22);
+            this.Txt_descripcion_ad.Size = new System.Drawing.Size(224, 20);
             this.Txt_descripcion_ad.TabIndex = 19;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(20, 251);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(15, 204);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(137, 16);
+            this.label10.Size = new System.Drawing.Size(109, 13);
             this.label10.TabIndex = 21;
             this.label10.Text = "Área de Despacho (*)";
             // 
@@ -773,10 +734,9 @@
             this.Btn_lupa_um.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn_lupa_um.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_lupa_um.Image = global::Sol_PuntoVenta.Presentacion.Properties.Resources.mignifying_glass;
-            this.Btn_lupa_um.Location = new System.Drawing.Point(477, 113);
-            this.Btn_lupa_um.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_lupa_um.Location = new System.Drawing.Point(358, 92);
             this.Btn_lupa_um.Name = "Btn_lupa_um";
-            this.Btn_lupa_um.Size = new System.Drawing.Size(39, 33);
+            this.Btn_lupa_um.Size = new System.Drawing.Size(29, 27);
             this.Btn_lupa_um.TabIndex = 17;
             this.Btn_lupa_um.UseVisualStyleBackColor = false;
             this.Btn_lupa_um.Visible = false;
@@ -784,20 +744,18 @@
             // 
             // Txt_descripcion_um
             // 
-            this.Txt_descripcion_um.Location = new System.Drawing.Point(172, 116);
-            this.Txt_descripcion_um.Margin = new System.Windows.Forms.Padding(4);
+            this.Txt_descripcion_um.Location = new System.Drawing.Point(129, 94);
             this.Txt_descripcion_um.Name = "Txt_descripcion_um";
             this.Txt_descripcion_um.ReadOnly = true;
-            this.Txt_descripcion_um.Size = new System.Drawing.Size(297, 22);
+            this.Txt_descripcion_um.Size = new System.Drawing.Size(224, 20);
             this.Txt_descripcion_um.TabIndex = 16;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(95, 119);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(71, 97);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(69, 16);
+            this.label9.Size = new System.Drawing.Size(55, 13);
             this.label9.TabIndex = 18;
             this.label9.Text = "Medida (*)";
             // 
@@ -807,10 +765,9 @@
             this.Btn_lupa_ma.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn_lupa_ma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_lupa_ma.Image = global::Sol_PuntoVenta.Presentacion.Properties.Resources.mignifying_glass;
-            this.Btn_lupa_ma.Location = new System.Drawing.Point(477, 65);
-            this.Btn_lupa_ma.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_lupa_ma.Location = new System.Drawing.Point(358, 53);
             this.Btn_lupa_ma.Name = "Btn_lupa_ma";
-            this.Btn_lupa_ma.Size = new System.Drawing.Size(39, 33);
+            this.Btn_lupa_ma.Size = new System.Drawing.Size(29, 27);
             this.Btn_lupa_ma.TabIndex = 14;
             this.Btn_lupa_ma.UseVisualStyleBackColor = false;
             this.Btn_lupa_ma.Visible = false;
@@ -818,40 +775,36 @@
             // 
             // Txt_descripcion_ma
             // 
-            this.Txt_descripcion_ma.Location = new System.Drawing.Point(172, 68);
-            this.Txt_descripcion_ma.Margin = new System.Windows.Forms.Padding(4);
+            this.Txt_descripcion_ma.Location = new System.Drawing.Point(129, 55);
             this.Txt_descripcion_ma.Name = "Txt_descripcion_ma";
             this.Txt_descripcion_ma.ReadOnly = true;
-            this.Txt_descripcion_ma.Size = new System.Drawing.Size(297, 22);
+            this.Txt_descripcion_ma.Size = new System.Drawing.Size(224, 20);
             this.Txt_descripcion_ma.TabIndex = 13;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(103, 71);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(77, 58);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(61, 16);
+            this.label8.Size = new System.Drawing.Size(50, 13);
             this.label8.TabIndex = 15;
             this.label8.Text = "Marca (*)";
             // 
             // Txt_descripcion_pr
             // 
-            this.Txt_descripcion_pr.Location = new System.Drawing.Point(172, 23);
-            this.Txt_descripcion_pr.Margin = new System.Windows.Forms.Padding(4);
+            this.Txt_descripcion_pr.Location = new System.Drawing.Point(129, 19);
             this.Txt_descripcion_pr.MaxLength = 30;
             this.Txt_descripcion_pr.Name = "Txt_descripcion_pr";
             this.Txt_descripcion_pr.ReadOnly = true;
-            this.Txt_descripcion_pr.Size = new System.Drawing.Size(343, 22);
+            this.Txt_descripcion_pr.Size = new System.Drawing.Size(258, 20);
             this.Txt_descripcion_pr.TabIndex = 12;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(85, 27);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(64, 22);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(77, 16);
+            this.label7.Size = new System.Drawing.Size(63, 13);
             this.label7.TabIndex = 11;
             this.label7.Text = "Producto (*)";
             // 
@@ -861,10 +814,9 @@
             this.Btn_lupa_sf.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn_lupa_sf.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_lupa_sf.Image = global::Sol_PuntoVenta.Presentacion.Properties.Resources.mignifying_glass;
-            this.Btn_lupa_sf.Location = new System.Drawing.Point(476, 154);
-            this.Btn_lupa_sf.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_lupa_sf.Location = new System.Drawing.Point(357, 125);
             this.Btn_lupa_sf.Name = "Btn_lupa_sf";
-            this.Btn_lupa_sf.Size = new System.Drawing.Size(39, 33);
+            this.Btn_lupa_sf.Size = new System.Drawing.Size(29, 27);
             this.Btn_lupa_sf.TabIndex = 2;
             this.Btn_lupa_sf.UseVisualStyleBackColor = false;
             this.Btn_lupa_sf.Visible = false;
@@ -872,20 +824,18 @@
             // 
             // Txt_descripcion_sf
             // 
-            this.Txt_descripcion_sf.Location = new System.Drawing.Point(172, 159);
-            this.Txt_descripcion_sf.Margin = new System.Windows.Forms.Padding(4);
+            this.Txt_descripcion_sf.Location = new System.Drawing.Point(129, 129);
             this.Txt_descripcion_sf.Name = "Txt_descripcion_sf";
             this.Txt_descripcion_sf.ReadOnly = true;
-            this.Txt_descripcion_sf.Size = new System.Drawing.Size(297, 22);
+            this.Txt_descripcion_sf.Size = new System.Drawing.Size(224, 20);
             this.Txt_descripcion_sf.TabIndex = 1;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(75, 162);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(56, 132);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 16);
+            this.label4.Size = new System.Drawing.Size(71, 13);
             this.label4.TabIndex = 7;
             this.label4.Text = "SubFamilia (*)";
             // 
@@ -894,10 +844,9 @@
             this.Btn_retornar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(153)))), ((int)(((byte)(117)))));
             this.Btn_retornar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_retornar.ForeColor = System.Drawing.Color.White;
-            this.Btn_retornar.Location = new System.Drawing.Point(363, 345);
-            this.Btn_retornar.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_retornar.Location = new System.Drawing.Point(272, 280);
             this.Btn_retornar.Name = "Btn_retornar";
-            this.Btn_retornar.Size = new System.Drawing.Size(107, 33);
+            this.Btn_retornar.Size = new System.Drawing.Size(80, 27);
             this.Btn_retornar.TabIndex = 6;
             this.Btn_retornar.Text = "Retornar";
             this.Btn_retornar.UseVisualStyleBackColor = false;
@@ -906,13 +855,12 @@
             // 
             // Btn_guardar
             // 
-            this.Btn_guardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(105)))), ((int)(((byte)(141)))));
+            this.Btn_guardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(130)))), ((int)(((byte)(174)))));
             this.Btn_guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_guardar.ForeColor = System.Drawing.Color.White;
-            this.Btn_guardar.Location = new System.Drawing.Point(248, 345);
-            this.Btn_guardar.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_guardar.Location = new System.Drawing.Point(186, 280);
             this.Btn_guardar.Name = "Btn_guardar";
-            this.Btn_guardar.Size = new System.Drawing.Size(107, 33);
+            this.Btn_guardar.Size = new System.Drawing.Size(80, 27);
             this.Btn_guardar.TabIndex = 5;
             this.Btn_guardar.Text = "Guardar";
             this.Btn_guardar.UseVisualStyleBackColor = false;
@@ -921,13 +869,12 @@
             // 
             // Btn_cancelar
             // 
-            this.Btn_cancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
+            this.Btn_cancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(71)))), ((int)(((byte)(87)))));
             this.Btn_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_cancelar.ForeColor = System.Drawing.Color.White;
-            this.Btn_cancelar.Location = new System.Drawing.Point(133, 345);
-            this.Btn_cancelar.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_cancelar.Location = new System.Drawing.Point(100, 280);
             this.Btn_cancelar.Name = "Btn_cancelar";
-            this.Btn_cancelar.Size = new System.Drawing.Size(107, 33);
+            this.Btn_cancelar.Size = new System.Drawing.Size(80, 27);
             this.Btn_cancelar.TabIndex = 4;
             this.Btn_cancelar.Text = "Cancelar";
             this.Btn_cancelar.UseVisualStyleBackColor = false;
@@ -936,21 +883,19 @@
             // 
             // Txt_precio_unitario
             // 
-            this.Txt_precio_unitario.Location = new System.Drawing.Point(172, 202);
-            this.Txt_precio_unitario.Margin = new System.Windows.Forms.Padding(4);
+            this.Txt_precio_unitario.Location = new System.Drawing.Point(129, 164);
             this.Txt_precio_unitario.MaxLength = 30;
             this.Txt_precio_unitario.Name = "Txt_precio_unitario";
             this.Txt_precio_unitario.ReadOnly = true;
-            this.Txt_precio_unitario.Size = new System.Drawing.Size(112, 22);
+            this.Txt_precio_unitario.Size = new System.Drawing.Size(85, 20);
             this.Txt_precio_unitario.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(51, 206);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(38, 167);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(111, 16);
+            this.label2.Size = new System.Drawing.Size(89, 13);
             this.label2.TabIndex = 0;
             this.label2.Text = "Precio Unitario (*)";
             // 
@@ -958,24 +903,22 @@
             // 
             this.groupBox1.Controls.Add(this.Btn_agregar_imagen);
             this.groupBox1.Controls.Add(this.Pct_imagen);
-            this.groupBox1.Location = new System.Drawing.Point(552, 23);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Location = new System.Drawing.Point(414, 19);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(267, 282);
+            this.groupBox1.Size = new System.Drawing.Size(200, 229);
             this.groupBox1.TabIndex = 22;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Imagen del Producto";
             // 
             // Btn_agregar_imagen
             // 
-            this.Btn_agregar_imagen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(246)))), ((int)(((byte)(245)))));
+            this.Btn_agregar_imagen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(130)))), ((int)(((byte)(174)))));
             this.Btn_agregar_imagen.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(198)))), ((int)(((byte)(198)))));
             this.Btn_agregar_imagen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_agregar_imagen.Location = new System.Drawing.Point(32, 210);
-            this.Btn_agregar_imagen.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_agregar_imagen.ForeColor = System.Drawing.Color.White;
+            this.Btn_agregar_imagen.Location = new System.Drawing.Point(24, 171);
             this.Btn_agregar_imagen.Name = "Btn_agregar_imagen";
-            this.Btn_agregar_imagen.Size = new System.Drawing.Size(195, 33);
+            this.Btn_agregar_imagen.Size = new System.Drawing.Size(146, 27);
             this.Btn_agregar_imagen.TabIndex = 23;
             this.Btn_agregar_imagen.Text = "Agregar imagen";
             this.Btn_agregar_imagen.UseVisualStyleBackColor = false;
@@ -985,10 +928,9 @@
             // Pct_imagen
             // 
             this.Pct_imagen.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Pct_imagen.Location = new System.Drawing.Point(32, 23);
-            this.Pct_imagen.Margin = new System.Windows.Forms.Padding(4);
+            this.Pct_imagen.Location = new System.Drawing.Point(24, 19);
             this.Pct_imagen.Name = "Pct_imagen";
-            this.Pct_imagen.Size = new System.Drawing.Size(194, 179);
+            this.Pct_imagen.Size = new System.Drawing.Size(146, 146);
             this.Pct_imagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pct_imagen.TabIndex = 0;
             this.Pct_imagen.TabStop = false;
@@ -1001,10 +943,9 @@
             this.Btn_nuevo.ForeColor = System.Drawing.Color.White;
             this.Btn_nuevo.ImageKey = "nuevo p.png";
             this.Btn_nuevo.ImageList = this.imageList1;
-            this.Btn_nuevo.Location = new System.Drawing.Point(21, 512);
-            this.Btn_nuevo.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_nuevo.Location = new System.Drawing.Point(16, 416);
             this.Btn_nuevo.Name = "Btn_nuevo";
-            this.Btn_nuevo.Size = new System.Drawing.Size(100, 74);
+            this.Btn_nuevo.Size = new System.Drawing.Size(75, 60);
             this.Btn_nuevo.TabIndex = 1;
             this.Btn_nuevo.Text = "Nuevo";
             this.Btn_nuevo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1058,10 +999,9 @@
             this.Btn_actualizar.ForeColor = System.Drawing.Color.White;
             this.Btn_actualizar.ImageKey = "edit.png";
             this.Btn_actualizar.ImageList = this.imageList1;
-            this.Btn_actualizar.Location = new System.Drawing.Point(129, 512);
-            this.Btn_actualizar.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_actualizar.Location = new System.Drawing.Point(97, 416);
             this.Btn_actualizar.Name = "Btn_actualizar";
-            this.Btn_actualizar.Size = new System.Drawing.Size(100, 74);
+            this.Btn_actualizar.Size = new System.Drawing.Size(75, 60);
             this.Btn_actualizar.TabIndex = 2;
             this.Btn_actualizar.Text = "Actualizar";
             this.Btn_actualizar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1077,10 +1017,9 @@
             this.Btn_eliminar.ForeColor = System.Drawing.Color.White;
             this.Btn_eliminar.ImageKey = "delete.png";
             this.Btn_eliminar.ImageList = this.imageList1;
-            this.Btn_eliminar.Location = new System.Drawing.Point(237, 512);
-            this.Btn_eliminar.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_eliminar.Location = new System.Drawing.Point(178, 416);
             this.Btn_eliminar.Name = "Btn_eliminar";
-            this.Btn_eliminar.Size = new System.Drawing.Size(100, 74);
+            this.Btn_eliminar.Size = new System.Drawing.Size(75, 60);
             this.Btn_eliminar.TabIndex = 3;
             this.Btn_eliminar.Text = "Eliminar";
             this.Btn_eliminar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1096,10 +1035,9 @@
             this.Btn_reporte.ForeColor = System.Drawing.Color.White;
             this.Btn_reporte.ImageKey = "documento.png";
             this.Btn_reporte.ImageList = this.imageList1;
-            this.Btn_reporte.Location = new System.Drawing.Point(345, 512);
-            this.Btn_reporte.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_reporte.Location = new System.Drawing.Point(259, 416);
             this.Btn_reporte.Name = "Btn_reporte";
-            this.Btn_reporte.Size = new System.Drawing.Size(100, 74);
+            this.Btn_reporte.Size = new System.Drawing.Size(75, 60);
             this.Btn_reporte.TabIndex = 4;
             this.Btn_reporte.Text = "Reporte";
             this.Btn_reporte.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1115,10 +1053,9 @@
             this.Btn_salir.ForeColor = System.Drawing.Color.White;
             this.Btn_salir.ImageKey = "exit.png";
             this.Btn_salir.ImageList = this.imageList1;
-            this.Btn_salir.Location = new System.Drawing.Point(453, 512);
-            this.Btn_salir.Margin = new System.Windows.Forms.Padding(4);
+            this.Btn_salir.Location = new System.Drawing.Point(340, 416);
             this.Btn_salir.Name = "Btn_salir";
-            this.Btn_salir.Size = new System.Drawing.Size(100, 74);
+            this.Btn_salir.Size = new System.Drawing.Size(75, 60);
             this.Btn_salir.TabIndex = 5;
             this.Btn_salir.Text = "Salir";
             this.Btn_salir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1132,9 +1069,8 @@
             this.Pnl_titulo_form.Controls.Add(this.label3);
             this.Pnl_titulo_form.Dock = System.Windows.Forms.DockStyle.Top;
             this.Pnl_titulo_form.Location = new System.Drawing.Point(0, 0);
-            this.Pnl_titulo_form.Margin = new System.Windows.Forms.Padding(4);
             this.Pnl_titulo_form.Name = "Pnl_titulo_form";
-            this.Pnl_titulo_form.Size = new System.Drawing.Size(1448, 49);
+            this.Pnl_titulo_form.Size = new System.Drawing.Size(1028, 40);
             this.Pnl_titulo_form.TabIndex = 6;
             // 
             // label3
@@ -1142,18 +1078,17 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label3.Location = new System.Drawing.Point(37, 16);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(28, 13);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(113, 18);
+            this.label3.Size = new System.Drawing.Size(93, 14);
             this.label3.TabIndex = 0;
             this.label3.Text = "PRODUCTOS";
             // 
             // Frm_Productos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1448, 690);
+            this.ClientSize = new System.Drawing.Size(1028, 561);
             this.Controls.Add(this.Pnl_titulo_form);
             this.Controls.Add(this.Btn_salir);
             this.Controls.Add(this.Btn_reporte);
@@ -1161,7 +1096,6 @@
             this.Controls.Add(this.Btn_actualizar);
             this.Controls.Add(this.Btn_nuevo);
             this.Controls.Add(this.Tbc_principal);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_Productos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Productos";
@@ -1178,12 +1112,12 @@
             this.Pnl_Listado_3.ResumeLayout(false);
             this.Pnl_Listado_3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_3)).EndInit();
-            this.Pnl_Listado_2.ResumeLayout(false);
-            this.Pnl_Listado_2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Dgv_2)).EndInit();
             this.Pnl_Listado_1.ResumeLayout(false);
             this.Pnl_Listado_1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_1)).EndInit();
+            this.Pnl_Listado_2.ResumeLayout(false);
+            this.Pnl_Listado_2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Dgv_2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_PuntosVentas)).EndInit();
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Pct_imagen)).EndInit();
