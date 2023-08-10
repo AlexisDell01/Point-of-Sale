@@ -157,6 +157,8 @@
             this.label13 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.label20 = new System.Windows.Forms.Label();
             this.Pnl_titulo_form.SuspendLayout();
             this.Pnl_busqueda_cl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_2)).BeginInit();
@@ -182,17 +184,17 @@
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_tickets)).BeginInit();
             this.panel5.SuspendLayout();
+            this.panel8.SuspendLayout();
             this.SuspendLayout();
             // 
             // Pnl_titulo_form
             // 
             this.Pnl_titulo_form.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(71)))), ((int)(((byte)(87)))));
-            this.Pnl_titulo_form.Controls.Add(this.Pnl_busqueda_cl);
             this.Pnl_titulo_form.Controls.Add(this.label3);
             this.Pnl_titulo_form.Dock = System.Windows.Forms.DockStyle.Top;
             this.Pnl_titulo_form.Location = new System.Drawing.Point(0, 0);
             this.Pnl_titulo_form.Name = "Pnl_titulo_form";
-            this.Pnl_titulo_form.Size = new System.Drawing.Size(1028, 40);
+            this.Pnl_titulo_form.Size = new System.Drawing.Size(1193, 40);
             this.Pnl_titulo_form.TabIndex = 8;
             // 
             // Pnl_busqueda_cl
@@ -204,7 +206,7 @@
             this.Pnl_busqueda_cl.Controls.Add(this.Btn_buscar_cl);
             this.Pnl_busqueda_cl.Controls.Add(this.Txt_buscar_cl);
             this.Pnl_busqueda_cl.Controls.Add(this.label12);
-            this.Pnl_busqueda_cl.Location = new System.Drawing.Point(57, 21);
+            this.Pnl_busqueda_cl.Location = new System.Drawing.Point(540, 27);
             this.Pnl_busqueda_cl.Name = "Pnl_busqueda_cl";
             this.Pnl_busqueda_cl.Size = new System.Drawing.Size(477, 241);
             this.Pnl_busqueda_cl.TabIndex = 46;
@@ -318,7 +320,8 @@
             // 
             // Pnl_superior
             // 
-            this.Pnl_superior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(164)))), ((int)(((byte)(172)))));
+            this.Pnl_superior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(72)))), ((int)(((byte)(83)))));
+            this.Pnl_superior.Controls.Add(this.Pnl_busqueda_cl);
             this.Pnl_superior.Controls.Add(this.Lbl_fecha_trabajo);
             this.Pnl_superior.Controls.Add(this.Lbl_codigo_tu);
             this.Pnl_superior.Controls.Add(this.Lbl_codigo_me);
@@ -334,7 +337,7 @@
             this.Pnl_superior.Dock = System.Windows.Forms.DockStyle.Top;
             this.Pnl_superior.Location = new System.Drawing.Point(0, 40);
             this.Pnl_superior.Name = "Pnl_superior";
-            this.Pnl_superior.Size = new System.Drawing.Size(1028, 82);
+            this.Pnl_superior.Size = new System.Drawing.Size(1193, 82);
             this.Pnl_superior.TabIndex = 9;
             // 
             // Lbl_fecha_trabajo
@@ -392,7 +395,7 @@
             this.Btn_nuevopedido.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Btn_nuevopedido.ImageKey = "nuevo p.png";
             this.Btn_nuevopedido.ImageList = this.imageList1;
-            this.Btn_nuevopedido.Location = new System.Drawing.Point(287, 6);
+            this.Btn_nuevopedido.Location = new System.Drawing.Point(838, 6);
             this.Btn_nuevopedido.Name = "Btn_nuevopedido";
             this.Btn_nuevopedido.Size = new System.Drawing.Size(98, 70);
             this.Btn_nuevopedido.TabIndex = 11;
@@ -454,7 +457,7 @@
             this.Btn_visualizarpedido.ForeColor = System.Drawing.Color.White;
             this.Btn_visualizarpedido.ImageKey = "visualizar.png";
             this.Btn_visualizarpedido.ImageList = this.imageList1;
-            this.Btn_visualizarpedido.Location = new System.Drawing.Point(411, 6);
+            this.Btn_visualizarpedido.Location = new System.Drawing.Point(957, 6);
             this.Btn_visualizarpedido.Name = "Btn_visualizarpedido";
             this.Btn_visualizarpedido.Size = new System.Drawing.Size(98, 70);
             this.Btn_visualizarpedido.TabIndex = 10;
@@ -473,7 +476,7 @@
             this.Btn_salir.ForeColor = System.Drawing.Color.White;
             this.Btn_salir.ImageKey = "exit.png";
             this.Btn_salir.ImageList = this.imageList1;
-            this.Btn_salir.Location = new System.Drawing.Point(534, 6);
+            this.Btn_salir.Location = new System.Drawing.Point(1083, 6);
             this.Btn_salir.Name = "Btn_salir";
             this.Btn_salir.Size = new System.Drawing.Size(98, 70);
             this.Btn_salir.TabIndex = 9;
@@ -540,7 +543,7 @@
             this.Tbc_principal.Location = new System.Drawing.Point(0, 122);
             this.Tbc_principal.Name = "Tbc_principal";
             this.Tbc_principal.SelectedIndex = 0;
-            this.Tbc_principal.Size = new System.Drawing.Size(1028, 487);
+            this.Tbc_principal.Size = new System.Drawing.Size(1193, 582);
             this.Tbc_principal.TabIndex = 10;
             // 
             // tabPage1
@@ -551,8 +554,8 @@
             this.tabPage1.Controls.Add(this.Pnl_pedido);
             this.tabPage1.Location = new System.Drawing.Point(4, 34);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage1.Size = new System.Drawing.Size(1020, 449);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(1185, 544);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Nuevo Pedido";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -561,20 +564,20 @@
             // 
             this.Flp_listadoproductos.AutoScroll = true;
             this.Flp_listadoproductos.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Flp_listadoproductos.Location = new System.Drawing.Point(763, 43);
+            this.Flp_listadoproductos.Location = new System.Drawing.Point(760, 43);
             this.Flp_listadoproductos.Name = "Flp_listadoproductos";
-            this.Flp_listadoproductos.Size = new System.Drawing.Size(254, 403);
+            this.Flp_listadoproductos.Size = new System.Drawing.Size(422, 498);
             this.Flp_listadoproductos.TabIndex = 11;
             this.Flp_listadoproductos.Paint += new System.Windows.Forms.PaintEventHandler(this.Flp_listadoproductos_Paint);
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(169)))), ((int)(((byte)(177)))));
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(130)))), ((int)(((byte)(174)))));
             this.panel3.Controls.Add(this.label7);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(763, 3);
+            this.panel3.Location = new System.Drawing.Point(760, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(254, 40);
+            this.panel3.Size = new System.Drawing.Size(422, 40);
             this.panel3.TabIndex = 10;
             // 
             // label7
@@ -590,11 +593,12 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.panel8);
             this.panel2.Controls.Add(this.Dgv_listado_sf);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(533, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(230, 443);
+            this.panel2.Size = new System.Drawing.Size(227, 538);
             this.panel2.TabIndex = 1;
             // 
             // Dgv_listado_sf
@@ -627,7 +631,7 @@
             dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.Dgv_listado_sf.DefaultCellStyle = dataGridViewCellStyle7;
             this.Dgv_listado_sf.EnableHeadersVisualStyles = false;
-            this.Dgv_listado_sf.Location = new System.Drawing.Point(4, 4);
+            this.Dgv_listado_sf.Location = new System.Drawing.Point(0, 4);
             this.Dgv_listado_sf.Name = "Dgv_listado_sf";
             this.Dgv_listado_sf.ReadOnly = true;
             dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -640,14 +644,14 @@
             this.Dgv_listado_sf.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.Dgv_listado_sf.RowHeadersWidth = 51;
             this.Dgv_listado_sf.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.Dgv_listado_sf.Size = new System.Drawing.Size(221, 440);
+            this.Dgv_listado_sf.Size = new System.Drawing.Size(227, 439);
             this.Dgv_listado_sf.TabIndex = 40;
             this.Dgv_listado_sf.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Dgv_listado_sf_CellClick);
             // 
             // Pnl_pedido
             // 
-            this.Pnl_pedido.Controls.Add(this.Pnl_busqueda_pr);
             this.Pnl_pedido.Controls.Add(this.Pnl_observacion);
+            this.Pnl_pedido.Controls.Add(this.Pnl_busqueda_pr);
             this.Pnl_pedido.Controls.Add(this.Btn_generarcomanda);
             this.Pnl_pedido.Controls.Add(this.label8);
             this.Pnl_pedido.Controls.Add(this.Lbl_total);
@@ -677,7 +681,7 @@
             this.Pnl_pedido.Dock = System.Windows.Forms.DockStyle.Left;
             this.Pnl_pedido.Location = new System.Drawing.Point(3, 3);
             this.Pnl_pedido.Name = "Pnl_pedido";
-            this.Pnl_pedido.Size = new System.Drawing.Size(530, 443);
+            this.Pnl_pedido.Size = new System.Drawing.Size(530, 538);
             this.Pnl_pedido.TabIndex = 0;
             // 
             // Pnl_busqueda_pr
@@ -689,7 +693,7 @@
             this.Pnl_busqueda_pr.Controls.Add(this.Btn_buscar_pr);
             this.Pnl_busqueda_pr.Controls.Add(this.Txt_buscar_pr);
             this.Pnl_busqueda_pr.Controls.Add(this.label17);
-            this.Pnl_busqueda_pr.Location = new System.Drawing.Point(199, 201);
+            this.Pnl_busqueda_pr.Location = new System.Drawing.Point(24, 47);
             this.Pnl_busqueda_pr.Name = "Pnl_busqueda_pr";
             this.Pnl_busqueda_pr.Size = new System.Drawing.Size(509, 224);
             this.Pnl_busqueda_pr.TabIndex = 45;
@@ -867,7 +871,7 @@
             // label8
             // 
             this.label8.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(92)))), ((int)(((byte)(111)))));
             this.label8.Location = new System.Drawing.Point(231, 414);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(101, 40);
@@ -877,7 +881,7 @@
             // 
             // Lbl_total
             // 
-            this.Lbl_total.BackColor = System.Drawing.Color.Linen;
+            this.Lbl_total.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.Lbl_total.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Lbl_total.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Lbl_total.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -952,7 +956,7 @@
             // 
             // Btn_quitarproducto
             // 
-            this.Btn_quitarproducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(80)))), ((int)(((byte)(57)))));
+            this.Btn_quitarproducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(71)))), ((int)(((byte)(87)))));
             this.Btn_quitarproducto.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(198)))), ((int)(((byte)(198)))));
             this.Btn_quitarproducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_quitarproducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -967,7 +971,7 @@
             // 
             // Btn_actualizar_cantidad
             // 
-            this.Btn_actualizar_cantidad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
+            this.Btn_actualizar_cantidad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(174)))), ((int)(((byte)(159)))));
             this.Btn_actualizar_cantidad.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(198)))), ((int)(((byte)(198)))));
             this.Btn_actualizar_cantidad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_actualizar_cantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -982,7 +986,7 @@
             // 
             // Lbl_cantidad
             // 
-            this.Lbl_cantidad.BackColor = System.Drawing.Color.Linen;
+            this.Lbl_cantidad.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.Lbl_cantidad.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Lbl_cantidad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Lbl_cantidad.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1055,7 +1059,7 @@
             // 
             // Btn_7
             // 
-            this.Btn_7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(130)))), ((int)(((byte)(174)))));
+            this.Btn_7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(130)))), ((int)(((byte)(174)))));
             this.Btn_7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(198)))), ((int)(((byte)(198)))));
             this.Btn_7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1221,7 +1225,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(169)))), ((int)(((byte)(177)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(72)))), ((int)(((byte)(83)))));
             this.panel1.Controls.Add(this.label4);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -1246,8 +1250,8 @@
             this.tabPage2.Controls.Add(this.Pnl_visualizar_pedidos);
             this.tabPage2.Location = new System.Drawing.Point(4, 34);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage2.Size = new System.Drawing.Size(1276, 561);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1020, 449);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Visualizar pedidos";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -1268,7 +1272,7 @@
             this.Pnl_detalles_tickets.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Pnl_detalles_tickets.Location = new System.Drawing.Point(637, 3);
             this.Pnl_detalles_tickets.Name = "Pnl_detalles_tickets";
-            this.Pnl_detalles_tickets.Size = new System.Drawing.Size(636, 555);
+            this.Pnl_detalles_tickets.Size = new System.Drawing.Size(380, 443);
             this.Pnl_detalles_tickets.TabIndex = 1;
             this.Pnl_detalles_tickets.Visible = false;
             // 
@@ -1452,7 +1456,7 @@
             this.Pnl_visualizar_pedidos.Dock = System.Windows.Forms.DockStyle.Left;
             this.Pnl_visualizar_pedidos.Location = new System.Drawing.Point(3, 3);
             this.Pnl_visualizar_pedidos.Name = "Pnl_visualizar_pedidos";
-            this.Pnl_visualizar_pedidos.Size = new System.Drawing.Size(634, 555);
+            this.Pnl_visualizar_pedidos.Size = new System.Drawing.Size(634, 443);
             this.Pnl_visualizar_pedidos.TabIndex = 0;
             // 
             // Pnl_observacion_anulado
@@ -1707,11 +1711,33 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(72)))), ((int)(((byte)(83)))));
+            this.panel8.Controls.Add(this.label20);
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel8.Location = new System.Drawing.Point(0, 0);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(227, 40);
+            this.panel8.TabIndex = 46;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label20.Location = new System.Drawing.Point(28, 13);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(101, 14);
+            this.label20.TabIndex = 0;
+            this.label20.Text = "SUBFAMILIAS";
+            this.label20.Click += new System.EventHandler(this.label20_Click);
+            // 
             // Frm_Mesa_Abierta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1028, 609);
+            this.ClientSize = new System.Drawing.Size(1193, 704);
             this.Controls.Add(this.Tbc_principal);
             this.Controls.Add(this.Pnl_superior);
             this.Controls.Add(this.Pnl_titulo_form);
@@ -1760,6 +1786,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_tickets)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1869,5 +1897,7 @@
         private System.Windows.Forms.Label Lbl_titulo_osbanulado_ti;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Label label20;
     }
 }

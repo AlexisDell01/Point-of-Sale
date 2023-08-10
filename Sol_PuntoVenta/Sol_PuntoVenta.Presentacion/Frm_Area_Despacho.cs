@@ -110,6 +110,7 @@ namespace Sol_PuntoVenta.Presentacion
             this.Estado_Texto(true);
             Tbc_principal.SelectedIndex = 1;
             Txt_descripcion.Focus();
+
         }
 
         private void Btn_cancelar_Click(object sender, EventArgs e)

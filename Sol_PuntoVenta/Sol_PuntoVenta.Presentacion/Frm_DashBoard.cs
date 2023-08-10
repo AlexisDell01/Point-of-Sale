@@ -276,5 +276,45 @@ namespace Sol_PuntoVenta.Presentacion
 
             this.Close();
         }
+
+        private void Lbl_fecha_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Pnl_logosistema_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Grb_fechayhora_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Lbl_hora_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_fecha_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

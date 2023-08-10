@@ -211,5 +211,30 @@ namespace Sol_PuntoVenta.Presentacion.Procesos
             }
            
         }
+
+        private void Dgv_1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Lbl_mensaje_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Txt_puntoventa_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Pnl_titulo_form_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
