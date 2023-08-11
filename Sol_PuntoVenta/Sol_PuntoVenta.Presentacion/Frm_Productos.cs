@@ -661,5 +661,10 @@ namespace Sol_PuntoVenta.Presentacion
                 Pct_imagen.Image = Image.FromFile(Foto.FileName);
             }
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

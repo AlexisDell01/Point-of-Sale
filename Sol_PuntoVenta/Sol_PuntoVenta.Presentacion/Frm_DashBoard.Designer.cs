@@ -60,13 +60,13 @@
             this.lbl_Puesto_Usuario = new System.Windows.Forms.Label();
             this.lbl_Sesion_Usuario = new System.Windows.Forms.Label();
             this.Grb_fechayhora = new System.Windows.Forms.GroupBox();
+            this.lbl_fecha = new System.Windows.Forms.Label();
             this.Lbl_hora = new System.Windows.Forms.Label();
             this.Pnl_contenido = new System.Windows.Forms.Panel();
             this.Pnl_logosistema = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.lbl_fecha = new System.Windows.Forms.Label();
             this.Pnl_menu.SuspendLayout();
             this.Pnl_datosmaestros.SuspendLayout();
             this.Pnl_procesos.SuspendLayout();
@@ -141,7 +141,7 @@
             // 
             // DM_areadespacho
             // 
-            this.DM_areadespacho.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.DM_areadespacho.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(75)))), ((int)(((byte)(91)))));
             this.DM_areadespacho.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DM_areadespacho.Dock = System.Windows.Forms.DockStyle.Top;
             this.DM_areadespacho.FlatAppearance.BorderSize = 0;
@@ -165,7 +165,7 @@
             // 
             // DM_mesas
             // 
-            this.DM_mesas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.DM_mesas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(75)))), ((int)(((byte)(91)))));
             this.DM_mesas.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DM_mesas.Dock = System.Windows.Forms.DockStyle.Top;
             this.DM_mesas.FlatAppearance.BorderSize = 0;
@@ -189,7 +189,7 @@
             // 
             // DM_puntosventas
             // 
-            this.DM_puntosventas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.DM_puntosventas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(75)))), ((int)(((byte)(91)))));
             this.DM_puntosventas.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DM_puntosventas.Dock = System.Windows.Forms.DockStyle.Top;
             this.DM_puntosventas.FlatAppearance.BorderSize = 0;
@@ -213,7 +213,7 @@
             // 
             // DM_familias
             // 
-            this.DM_familias.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.DM_familias.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(75)))), ((int)(((byte)(91)))));
             this.DM_familias.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DM_familias.Dock = System.Windows.Forms.DockStyle.Top;
             this.DM_familias.FlatAppearance.BorderSize = 0;
@@ -237,7 +237,7 @@
             // 
             // DM_subfamilias
             // 
-            this.DM_subfamilias.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.DM_subfamilias.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(75)))), ((int)(((byte)(91)))));
             this.DM_subfamilias.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DM_subfamilias.Dock = System.Windows.Forms.DockStyle.Top;
             this.DM_subfamilias.FlatAppearance.BorderSize = 0;
@@ -261,7 +261,7 @@
             // 
             // DM_medidas
             // 
-            this.DM_medidas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.DM_medidas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(75)))), ((int)(((byte)(91)))));
             this.DM_medidas.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DM_medidas.Dock = System.Windows.Forms.DockStyle.Top;
             this.DM_medidas.FlatAppearance.BorderSize = 0;
@@ -285,7 +285,7 @@
             // 
             // DM_marcas
             // 
-            this.DM_marcas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.DM_marcas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(75)))), ((int)(((byte)(91)))));
             this.DM_marcas.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DM_marcas.Dock = System.Windows.Forms.DockStyle.Top;
             this.DM_marcas.FlatAppearance.BorderSize = 0;
@@ -309,7 +309,7 @@
             // 
             // DM_productos
             // 
-            this.DM_productos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.DM_productos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(75)))), ((int)(((byte)(91)))));
             this.DM_productos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DM_productos.Dock = System.Windows.Forms.DockStyle.Top;
             this.DM_productos.FlatAppearance.BorderSize = 0;
@@ -333,7 +333,7 @@
             // 
             // Btn_datosmaestros
             // 
-            this.Btn_datosmaestros.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(71)))), ((int)(((byte)(87)))));
+            this.Btn_datosmaestros.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(162)))), ((int)(((byte)(151)))));
             this.Btn_datosmaestros.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_datosmaestros.Dock = System.Windows.Forms.DockStyle.Top;
             this.Btn_datosmaestros.FlatAppearance.BorderSize = 0;
@@ -368,7 +368,7 @@
             // 
             // PR_gestionturnos
             // 
-            this.PR_gestionturnos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.PR_gestionturnos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(75)))), ((int)(((byte)(91)))));
             this.PR_gestionturnos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PR_gestionturnos.Dock = System.Windows.Forms.DockStyle.Top;
             this.PR_gestionturnos.FlatAppearance.BorderSize = 0;
@@ -392,7 +392,7 @@
             // 
             // PR_registrarpedido
             // 
-            this.PR_registrarpedido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.PR_registrarpedido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(75)))), ((int)(((byte)(91)))));
             this.PR_registrarpedido.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PR_registrarpedido.Dock = System.Windows.Forms.DockStyle.Top;
             this.PR_registrarpedido.FlatAppearance.BorderSize = 0;
@@ -416,7 +416,7 @@
             // 
             // Btn_procesos
             // 
-            this.Btn_procesos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(71)))), ((int)(((byte)(87)))));
+            this.Btn_procesos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(162)))), ((int)(((byte)(151)))));
             this.Btn_procesos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_procesos.Dock = System.Windows.Forms.DockStyle.Top;
             this.Btn_procesos.FlatAppearance.BorderSize = 0;
@@ -605,11 +605,11 @@
             this.lbl_Puesto_Usuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(212)))), ((int)(((byte)(218)))));
             this.lbl_Puesto_Usuario.Image = ((System.Drawing.Image)(resources.GetObject("lbl_Puesto_Usuario.Image")));
             this.lbl_Puesto_Usuario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_Puesto_Usuario.Location = new System.Drawing.Point(15, 49);
+            this.lbl_Puesto_Usuario.Location = new System.Drawing.Point(15, 48);
             this.lbl_Puesto_Usuario.Name = "lbl_Puesto_Usuario";
-            this.lbl_Puesto_Usuario.Size = new System.Drawing.Size(188, 23);
+            this.lbl_Puesto_Usuario.Size = new System.Drawing.Size(175, 23);
             this.lbl_Puesto_Usuario.TabIndex = 2;
-            this.lbl_Puesto_Usuario.Text = "Usuario: Admin";
+            this.lbl_Puesto_Usuario.Text = " Cargo: Admin";
             this.lbl_Puesto_Usuario.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lbl_Sesion_Usuario
@@ -640,6 +640,17 @@
             this.Grb_fechayhora.TabStop = false;
             this.Grb_fechayhora.Text = "Fecha y Hora";
             this.Grb_fechayhora.Enter += new System.EventHandler(this.Grb_fechayhora_Enter);
+            // 
+            // lbl_fecha
+            // 
+            this.lbl_fecha.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fecha.Location = new System.Drawing.Point(4, 39);
+            this.lbl_fecha.Name = "lbl_fecha";
+            this.lbl_fecha.Size = new System.Drawing.Size(253, 28);
+            this.lbl_fecha.TabIndex = 1;
+            this.lbl_fecha.Text = "Fecha";
+            this.lbl_fecha.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_fecha.Click += new System.EventHandler(this.lbl_fecha_Click_1);
             // 
             // Lbl_hora
             // 
@@ -704,17 +715,6 @@
             // 
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // lbl_fecha
-            // 
-            this.lbl_fecha.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_fecha.Location = new System.Drawing.Point(4, 39);
-            this.lbl_fecha.Name = "lbl_fecha";
-            this.lbl_fecha.Size = new System.Drawing.Size(253, 28);
-            this.lbl_fecha.TabIndex = 1;
-            this.lbl_fecha.Text = "Fecha";
-            this.lbl_fecha.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl_fecha.Click += new System.EventHandler(this.lbl_fecha_Click_1);
             // 
             // Frm_DashBoard
             // 

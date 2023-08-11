@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Productos));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
             this.Tbc_principal = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.Lbl_totalregistros = new System.Windows.Forms.Label();
@@ -169,8 +169,9 @@
             // 
             // Btn_buscar
             // 
-            this.Btn_buscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(105)))), ((int)(((byte)(141)))));
+            this.Btn_buscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(130)))), ((int)(((byte)(174)))));
             this.Btn_buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_buscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_buscar.ForeColor = System.Drawing.Color.White;
             this.Btn_buscar.Location = new System.Drawing.Point(295, 35);
             this.Btn_buscar.Name = "Btn_buscar";
@@ -182,6 +183,7 @@
             // 
             // Txt_buscar
             // 
+            this.Txt_buscar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Txt_buscar.Location = new System.Drawing.Point(63, 38);
             this.Txt_buscar.Name = "Txt_buscar";
             this.Txt_buscar.Size = new System.Drawing.Size(226, 20);
@@ -201,19 +203,20 @@
             this.Dgv_Listado.AllowUserToAddRows = false;
             this.Dgv_Listado.AllowUserToDeleteRows = false;
             this.Dgv_Listado.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.LightCyan;
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            this.Dgv_Listado.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle19.BackColor = System.Drawing.Color.LightCyan;
+            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.Black;
+            this.Dgv_Listado.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle19;
+            this.Dgv_Listado.BackgroundColor = System.Drawing.Color.LightGray;
             this.Dgv_Listado.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Dgv_Listado.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Dgv_Listado.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
+            dataGridViewCellStyle20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Dgv_Listado.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle20;
             this.Dgv_Listado.ColumnHeadersHeight = 35;
             this.Dgv_Listado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.Dgv_Listado.EnableHeadersVisualStyles = false;
@@ -229,9 +232,9 @@
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.Pnl_Listado_4);
+            this.tabPage2.Controls.Add(this.Pnl_Listado_2);
             this.tabPage2.Controls.Add(this.Pnl_Listado_3);
             this.tabPage2.Controls.Add(this.Pnl_Listado_1);
-            this.tabPage2.Controls.Add(this.Pnl_Listado_2);
             this.tabPage2.Controls.Add(this.Dgv_PuntosVentas);
             this.tabPage2.Controls.Add(this.Txt_observacion);
             this.tabPage2.Controls.Add(this.label11);
@@ -265,14 +268,14 @@
             // 
             // Pnl_Listado_4
             // 
-            this.Pnl_Listado_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(167)))), ((int)(((byte)(169)))));
+            this.Pnl_Listado_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.Pnl_Listado_4.Controls.Add(this.Btn_retornar4);
             this.Pnl_Listado_4.Controls.Add(this.Dgv_4);
             this.Pnl_Listado_4.Controls.Add(this.label16);
             this.Pnl_Listado_4.Controls.Add(this.Btn_buscar4);
             this.Pnl_Listado_4.Controls.Add(this.Txt_buscar4);
             this.Pnl_Listado_4.Controls.Add(this.label17);
-            this.Pnl_Listado_4.Location = new System.Drawing.Point(389, 74);
+            this.Pnl_Listado_4.Location = new System.Drawing.Point(580, 13);
             this.Pnl_Listado_4.Name = "Pnl_Listado_4";
             this.Pnl_Listado_4.Size = new System.Drawing.Size(308, 229);
             this.Pnl_Listado_4.TabIndex = 28;
@@ -283,9 +286,9 @@
             this.Btn_retornar4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(198)))), ((int)(((byte)(198)))));
             this.Btn_retornar4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_retornar4.Image = ((System.Drawing.Image)(resources.GetObject("Btn_retornar4.Image")));
-            this.Btn_retornar4.Location = new System.Drawing.Point(260, 44);
+            this.Btn_retornar4.Location = new System.Drawing.Point(254, 48);
             this.Btn_retornar4.Name = "Btn_retornar4";
-            this.Btn_retornar4.Size = new System.Drawing.Size(29, 27);
+            this.Btn_retornar4.Size = new System.Drawing.Size(37, 22);
             this.Btn_retornar4.TabIndex = 13;
             this.Btn_retornar4.UseVisualStyleBackColor = true;
             this.Btn_retornar4.Click += new System.EventHandler(this.Btn_retornar4_Click);
@@ -295,20 +298,19 @@
             this.Dgv_4.AllowUserToAddRows = false;
             this.Dgv_4.AllowUserToDeleteRows = false;
             this.Dgv_4.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.LightCyan;
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            this.Dgv_4.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
-            this.Dgv_4.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.LightCyan;
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.Black;
+            this.Dgv_4.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
             this.Dgv_4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Dgv_4.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Dgv_4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Dgv_4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.Dgv_4.ColumnHeadersHeight = 35;
             this.Dgv_4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.Dgv_4.EnableHeadersVisualStyles = false;
@@ -325,7 +327,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.ForeColor = System.Drawing.Color.Black;
             this.label16.Location = new System.Drawing.Point(14, 10);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(245, 15);
@@ -338,9 +340,9 @@
             this.Btn_buscar4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn_buscar4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_buscar4.Image = global::Sol_PuntoVenta.Presentacion.Properties.Resources.mignifying_glass;
-            this.Btn_buscar4.Location = new System.Drawing.Point(225, 44);
+            this.Btn_buscar4.Location = new System.Drawing.Point(225, 48);
             this.Btn_buscar4.Name = "Btn_buscar4";
-            this.Btn_buscar4.Size = new System.Drawing.Size(29, 27);
+            this.Btn_buscar4.Size = new System.Drawing.Size(22, 22);
             this.Btn_buscar4.TabIndex = 10;
             this.Btn_buscar4.UseVisualStyleBackColor = false;
             this.Btn_buscar4.Click += new System.EventHandler(this.Btn_buscar4_Click);
@@ -355,7 +357,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.ForeColor = System.Drawing.Color.White;
+            this.label17.ForeColor = System.Drawing.Color.Black;
             this.label17.Location = new System.Drawing.Point(14, 51);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(43, 13);
@@ -394,19 +396,19 @@
             this.Dgv_3.AllowUserToAddRows = false;
             this.Dgv_3.AllowUserToDeleteRows = false;
             this.Dgv_3.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.LightCyan;
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            this.Dgv_3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle21.BackColor = System.Drawing.Color.LightCyan;
+            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.Black;
+            this.Dgv_3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle21;
             this.Dgv_3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Dgv_3.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Dgv_3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
+            dataGridViewCellStyle22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Dgv_3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
             this.Dgv_3.ColumnHeadersHeight = 35;
             this.Dgv_3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.Dgv_3.EnableHeadersVisualStyles = false;
@@ -490,19 +492,19 @@
             this.Dgv_1.AllowUserToAddRows = false;
             this.Dgv_1.AllowUserToDeleteRows = false;
             this.Dgv_1.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.LightCyan;
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            this.Dgv_1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle23.BackColor = System.Drawing.Color.LightCyan;
+            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.Black;
+            this.Dgv_1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle23;
             this.Dgv_1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Dgv_1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Dgv_1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Dgv_1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle24;
             this.Dgv_1.ColumnHeadersHeight = 35;
             this.Dgv_1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.Dgv_1.EnableHeadersVisualStyles = false;
@@ -563,7 +565,7 @@
             this.Pnl_Listado_2.Controls.Add(this.Btn_buscar2);
             this.Pnl_Listado_2.Controls.Add(this.Txt_buscar2);
             this.Pnl_Listado_2.Controls.Add(this.label13);
-            this.Pnl_Listado_2.Location = new System.Drawing.Point(692, 51);
+            this.Pnl_Listado_2.Location = new System.Drawing.Point(91, 42);
             this.Pnl_Listado_2.Name = "Pnl_Listado_2";
             this.Pnl_Listado_2.Size = new System.Drawing.Size(308, 232);
             this.Pnl_Listado_2.TabIndex = 26;
@@ -574,9 +576,9 @@
             this.Btn_retornar2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(198)))), ((int)(((byte)(198)))));
             this.Btn_retornar2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_retornar2.Image = ((System.Drawing.Image)(resources.GetObject("Btn_retornar2.Image")));
-            this.Btn_retornar2.Location = new System.Drawing.Point(262, 28);
+            this.Btn_retornar2.Location = new System.Drawing.Point(255, 33);
             this.Btn_retornar2.Name = "Btn_retornar2";
-            this.Btn_retornar2.Size = new System.Drawing.Size(29, 27);
+            this.Btn_retornar2.Size = new System.Drawing.Size(36, 22);
             this.Btn_retornar2.TabIndex = 13;
             this.Btn_retornar2.UseVisualStyleBackColor = true;
             this.Btn_retornar2.Click += new System.EventHandler(this.Btn_retornar2_Click);
@@ -586,19 +588,19 @@
             this.Dgv_2.AllowUserToAddRows = false;
             this.Dgv_2.AllowUserToDeleteRows = false;
             this.Dgv_2.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.LightCyan;
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
-            this.Dgv_2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.LightCyan;
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black;
+            this.Dgv_2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle15;
             this.Dgv_2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Dgv_2.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Dgv_2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
+            dataGridViewCellStyle16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Dgv_2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle16;
             this.Dgv_2.ColumnHeadersHeight = 35;
             this.Dgv_2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.Dgv_2.EnableHeadersVisualStyles = false;
@@ -627,9 +629,9 @@
             this.Btn_buscar2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(198)))), ((int)(((byte)(198)))));
             this.Btn_buscar2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_buscar2.Image = global::Sol_PuntoVenta.Presentacion.Properties.Resources.mignifying_glass;
-            this.Btn_buscar2.Location = new System.Drawing.Point(227, 29);
+            this.Btn_buscar2.Location = new System.Drawing.Point(227, 33);
             this.Btn_buscar2.Name = "Btn_buscar2";
-            this.Btn_buscar2.Size = new System.Drawing.Size(29, 27);
+            this.Btn_buscar2.Size = new System.Drawing.Size(22, 22);
             this.Btn_buscar2.TabIndex = 10;
             this.Btn_buscar2.UseVisualStyleBackColor = false;
             this.Btn_buscar2.Click += new System.EventHandler(this.Btn_buscar2_Click);
@@ -655,19 +657,20 @@
             this.Dgv_PuntosVentas.AllowUserToAddRows = false;
             this.Dgv_PuntosVentas.AllowUserToDeleteRows = false;
             this.Dgv_PuntosVentas.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.LightCyan;
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.Black;
-            this.Dgv_PuntosVentas.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.LightCyan;
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black;
+            this.Dgv_PuntosVentas.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle17;
+            this.Dgv_PuntosVentas.BackgroundColor = System.Drawing.Color.Gainsboro;
             this.Dgv_PuntosVentas.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Dgv_PuntosVentas.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Dgv_PuntosVentas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(145)))), ((int)(((byte)(194)))));
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Dgv_PuntosVentas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle18;
             this.Dgv_PuntosVentas.ColumnHeadersHeight = 35;
             this.Dgv_PuntosVentas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.Dgv_PuntosVentas.EnableHeadersVisualStyles = false;
@@ -680,12 +683,14 @@
             // 
             // Txt_observacion
             // 
+            this.Txt_observacion.BackColor = System.Drawing.Color.White;
+            this.Txt_observacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Txt_observacion.Location = new System.Drawing.Point(127, 239);
             this.Txt_observacion.MaxLength = 30;
             this.Txt_observacion.Multiline = true;
             this.Txt_observacion.Name = "Txt_observacion";
             this.Txt_observacion.ReadOnly = true;
-            this.Txt_observacion.Size = new System.Drawing.Size(258, 35);
+            this.Txt_observacion.Size = new System.Drawing.Size(252, 35);
             this.Txt_observacion.TabIndex = 24;
             // 
             // label11
@@ -703,9 +708,9 @@
             this.Btn_lupa_ad.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn_lupa_ad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_lupa_ad.Image = global::Sol_PuntoVenta.Presentacion.Properties.Resources.mignifying_glass;
-            this.Btn_lupa_ad.Location = new System.Drawing.Point(356, 197);
+            this.Btn_lupa_ad.Location = new System.Drawing.Point(357, 201);
             this.Btn_lupa_ad.Name = "Btn_lupa_ad";
-            this.Btn_lupa_ad.Size = new System.Drawing.Size(29, 27);
+            this.Btn_lupa_ad.Size = new System.Drawing.Size(22, 22);
             this.Btn_lupa_ad.TabIndex = 20;
             this.Btn_lupa_ad.UseVisualStyleBackColor = false;
             this.Btn_lupa_ad.Visible = false;
@@ -713,6 +718,7 @@
             // 
             // Txt_descripcion_ad
             // 
+            this.Txt_descripcion_ad.BackColor = System.Drawing.Color.White;
             this.Txt_descripcion_ad.Location = new System.Drawing.Point(128, 201);
             this.Txt_descripcion_ad.Name = "Txt_descripcion_ad";
             this.Txt_descripcion_ad.ReadOnly = true;
@@ -734,9 +740,9 @@
             this.Btn_lupa_um.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn_lupa_um.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_lupa_um.Image = global::Sol_PuntoVenta.Presentacion.Properties.Resources.mignifying_glass;
-            this.Btn_lupa_um.Location = new System.Drawing.Point(358, 92);
+            this.Btn_lupa_um.Location = new System.Drawing.Point(357, 94);
             this.Btn_lupa_um.Name = "Btn_lupa_um";
-            this.Btn_lupa_um.Size = new System.Drawing.Size(29, 27);
+            this.Btn_lupa_um.Size = new System.Drawing.Size(22, 22);
             this.Btn_lupa_um.TabIndex = 17;
             this.Btn_lupa_um.UseVisualStyleBackColor = false;
             this.Btn_lupa_um.Visible = false;
@@ -744,6 +750,7 @@
             // 
             // Txt_descripcion_um
             // 
+            this.Txt_descripcion_um.BackColor = System.Drawing.Color.White;
             this.Txt_descripcion_um.Location = new System.Drawing.Point(129, 94);
             this.Txt_descripcion_um.Name = "Txt_descripcion_um";
             this.Txt_descripcion_um.ReadOnly = true;
@@ -765,9 +772,9 @@
             this.Btn_lupa_ma.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn_lupa_ma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_lupa_ma.Image = global::Sol_PuntoVenta.Presentacion.Properties.Resources.mignifying_glass;
-            this.Btn_lupa_ma.Location = new System.Drawing.Point(358, 53);
+            this.Btn_lupa_ma.Location = new System.Drawing.Point(357, 55);
             this.Btn_lupa_ma.Name = "Btn_lupa_ma";
-            this.Btn_lupa_ma.Size = new System.Drawing.Size(29, 27);
+            this.Btn_lupa_ma.Size = new System.Drawing.Size(22, 22);
             this.Btn_lupa_ma.TabIndex = 14;
             this.Btn_lupa_ma.UseVisualStyleBackColor = false;
             this.Btn_lupa_ma.Visible = false;
@@ -775,6 +782,7 @@
             // 
             // Txt_descripcion_ma
             // 
+            this.Txt_descripcion_ma.BackColor = System.Drawing.Color.White;
             this.Txt_descripcion_ma.Location = new System.Drawing.Point(129, 55);
             this.Txt_descripcion_ma.Name = "Txt_descripcion_ma";
             this.Txt_descripcion_ma.ReadOnly = true;
@@ -792,11 +800,12 @@
             // 
             // Txt_descripcion_pr
             // 
+            this.Txt_descripcion_pr.BackColor = System.Drawing.Color.White;
             this.Txt_descripcion_pr.Location = new System.Drawing.Point(129, 19);
             this.Txt_descripcion_pr.MaxLength = 30;
             this.Txt_descripcion_pr.Name = "Txt_descripcion_pr";
             this.Txt_descripcion_pr.ReadOnly = true;
-            this.Txt_descripcion_pr.Size = new System.Drawing.Size(258, 20);
+            this.Txt_descripcion_pr.Size = new System.Drawing.Size(250, 20);
             this.Txt_descripcion_pr.TabIndex = 12;
             // 
             // label7
@@ -814,9 +823,9 @@
             this.Btn_lupa_sf.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn_lupa_sf.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_lupa_sf.Image = global::Sol_PuntoVenta.Presentacion.Properties.Resources.mignifying_glass;
-            this.Btn_lupa_sf.Location = new System.Drawing.Point(357, 125);
+            this.Btn_lupa_sf.Location = new System.Drawing.Point(357, 129);
             this.Btn_lupa_sf.Name = "Btn_lupa_sf";
-            this.Btn_lupa_sf.Size = new System.Drawing.Size(29, 27);
+            this.Btn_lupa_sf.Size = new System.Drawing.Size(22, 22);
             this.Btn_lupa_sf.TabIndex = 2;
             this.Btn_lupa_sf.UseVisualStyleBackColor = false;
             this.Btn_lupa_sf.Visible = false;
@@ -824,6 +833,7 @@
             // 
             // Txt_descripcion_sf
             // 
+            this.Txt_descripcion_sf.BackColor = System.Drawing.Color.White;
             this.Txt_descripcion_sf.Location = new System.Drawing.Point(129, 129);
             this.Txt_descripcion_sf.Name = "Txt_descripcion_sf";
             this.Txt_descripcion_sf.ReadOnly = true;
@@ -844,7 +854,7 @@
             this.Btn_retornar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(153)))), ((int)(((byte)(117)))));
             this.Btn_retornar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_retornar.ForeColor = System.Drawing.Color.White;
-            this.Btn_retornar.Location = new System.Drawing.Point(272, 280);
+            this.Btn_retornar.Location = new System.Drawing.Point(299, 280);
             this.Btn_retornar.Name = "Btn_retornar";
             this.Btn_retornar.Size = new System.Drawing.Size(80, 27);
             this.Btn_retornar.TabIndex = 6;
@@ -858,7 +868,7 @@
             this.Btn_guardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(130)))), ((int)(((byte)(174)))));
             this.Btn_guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_guardar.ForeColor = System.Drawing.Color.White;
-            this.Btn_guardar.Location = new System.Drawing.Point(186, 280);
+            this.Btn_guardar.Location = new System.Drawing.Point(213, 280);
             this.Btn_guardar.Name = "Btn_guardar";
             this.Btn_guardar.Size = new System.Drawing.Size(80, 27);
             this.Btn_guardar.TabIndex = 5;
@@ -872,7 +882,7 @@
             this.Btn_cancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(71)))), ((int)(((byte)(87)))));
             this.Btn_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_cancelar.ForeColor = System.Drawing.Color.White;
-            this.Btn_cancelar.Location = new System.Drawing.Point(100, 280);
+            this.Btn_cancelar.Location = new System.Drawing.Point(127, 280);
             this.Btn_cancelar.Name = "Btn_cancelar";
             this.Btn_cancelar.Size = new System.Drawing.Size(80, 27);
             this.Btn_cancelar.TabIndex = 4;
@@ -883,6 +893,7 @@
             // 
             // Txt_precio_unitario
             // 
+            this.Txt_precio_unitario.BackColor = System.Drawing.Color.White;
             this.Txt_precio_unitario.Location = new System.Drawing.Point(129, 164);
             this.Txt_precio_unitario.MaxLength = 30;
             this.Txt_precio_unitario.Name = "Txt_precio_unitario";
@@ -909,6 +920,7 @@
             this.groupBox1.TabIndex = 22;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Imagen del Producto";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // Btn_agregar_imagen
             // 
@@ -937,7 +949,7 @@
             // 
             // Btn_nuevo
             // 
-            this.Btn_nuevo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(53)))), ((int)(((byte)(66)))));
+            this.Btn_nuevo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
             this.Btn_nuevo.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn_nuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_nuevo.ForeColor = System.Drawing.Color.White;
@@ -993,7 +1005,7 @@
             // 
             // Btn_actualizar
             // 
-            this.Btn_actualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(53)))), ((int)(((byte)(66)))));
+            this.Btn_actualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
             this.Btn_actualizar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn_actualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_actualizar.ForeColor = System.Drawing.Color.White;
@@ -1011,7 +1023,7 @@
             // 
             // Btn_eliminar
             // 
-            this.Btn_eliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(53)))), ((int)(((byte)(66)))));
+            this.Btn_eliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
             this.Btn_eliminar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn_eliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_eliminar.ForeColor = System.Drawing.Color.White;
@@ -1029,7 +1041,7 @@
             // 
             // Btn_reporte
             // 
-            this.Btn_reporte.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(53)))), ((int)(((byte)(66)))));
+            this.Btn_reporte.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
             this.Btn_reporte.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn_reporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_reporte.ForeColor = System.Drawing.Color.White;
@@ -1047,7 +1059,7 @@
             // 
             // Btn_salir
             // 
-            this.Btn_salir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(53)))), ((int)(((byte)(66)))));
+            this.Btn_salir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
             this.Btn_salir.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn_salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_salir.ForeColor = System.Drawing.Color.White;

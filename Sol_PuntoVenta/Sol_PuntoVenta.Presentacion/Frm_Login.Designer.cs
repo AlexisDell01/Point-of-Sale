@@ -102,17 +102,19 @@
             // 
             // Txt_login_us
             // 
-            this.Txt_login_us.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
+            this.Txt_login_us.BackColor = System.Drawing.Color.Silver;
+            this.Txt_login_us.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Txt_login_us.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_login_us.Location = new System.Drawing.Point(267, 92);
             this.Txt_login_us.MaxLength = 20;
             this.Txt_login_us.Name = "Txt_login_us";
             this.Txt_login_us.Size = new System.Drawing.Size(256, 26);
             this.Txt_login_us.TabIndex = 3;
+            this.Txt_login_us.TextChanged += new System.EventHandler(this.Txt_login_us_TextChanged);
             // 
             // Txt_Password_us
             // 
-            this.Txt_Password_us.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
+            this.Txt_Password_us.BackColor = System.Drawing.Color.Silver;
             this.Txt_Password_us.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_Password_us.Location = new System.Drawing.Point(267, 181);
             this.Txt_Password_us.MaxLength = 20;
