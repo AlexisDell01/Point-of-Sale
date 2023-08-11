@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,6 +17,8 @@ namespace Sol_PuntoVenta.Presentacion
         public Frm_Login()
         {
             InitializeComponent();
+
+       
         }
 
 
@@ -71,5 +74,17 @@ namespace Sol_PuntoVenta.Presentacion
 
             
         }
+
+        
+
+
+        private void Txt_login_us_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+       
+
+
     }
 }
