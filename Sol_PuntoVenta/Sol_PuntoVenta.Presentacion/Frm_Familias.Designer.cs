@@ -49,7 +49,6 @@
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.Btn_actualizar = new System.Windows.Forms.Button();
             this.Btn_eliminar = new System.Windows.Forms.Button();
-            this.Btn_reporte = new System.Windows.Forms.Button();
             this.Btn_salir = new System.Windows.Forms.Button();
             this.Pnl_titulo_form = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
@@ -80,7 +79,7 @@
             this.tabPage1.Controls.Add(this.Dgv_Listado);
             this.tabPage1.Location = new System.Drawing.Point(4, 34);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(938, 320);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Consultas";
@@ -105,7 +104,7 @@
             this.Btn_buscar.ForeColor = System.Drawing.Color.White;
             this.Btn_buscar.Location = new System.Drawing.Point(295, 35);
             this.Btn_buscar.Name = "Btn_buscar";
-            this.Btn_buscar.Size = new System.Drawing.Size(80, 27);
+            this.Btn_buscar.Size = new System.Drawing.Size(80, 24);
             this.Btn_buscar.TabIndex = 3;
             this.Btn_buscar.Text = "Buscar";
             this.Btn_buscar.UseVisualStyleBackColor = false;
@@ -135,6 +134,7 @@
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.LightCyan;
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
             this.Dgv_Listado.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.Dgv_Listado.BackgroundColor = System.Drawing.Color.LightGray;
             this.Dgv_Listado.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Dgv_Listado.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -166,15 +166,15 @@
             this.tabPage2.Controls.Add(this.label2);
             this.tabPage2.Location = new System.Drawing.Point(4, 34);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage2.Size = new System.Drawing.Size(688, 320);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(938, 320);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Mantenimiento";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // Btn_retornar
             // 
-            this.Btn_retornar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(153)))), ((int)(((byte)(117)))));
+            this.Btn_retornar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Btn_retornar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_retornar.ForeColor = System.Drawing.Color.White;
             this.Btn_retornar.Location = new System.Drawing.Point(254, 97);
@@ -188,7 +188,7 @@
             // 
             // Btn_guardar
             // 
-            this.Btn_guardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(105)))), ((int)(((byte)(141)))));
+            this.Btn_guardar.BackColor = System.Drawing.Color.Blue;
             this.Btn_guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_guardar.ForeColor = System.Drawing.Color.White;
             this.Btn_guardar.Location = new System.Drawing.Point(168, 97);
@@ -202,7 +202,7 @@
             // 
             // Btn_cancelar
             // 
-            this.Btn_cancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
+            this.Btn_cancelar.BackColor = System.Drawing.Color.Red;
             this.Btn_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_cancelar.ForeColor = System.Drawing.Color.White;
             this.Btn_cancelar.Location = new System.Drawing.Point(82, 97);
@@ -220,7 +220,7 @@
             this.Txt_descripcion.MaxLength = 30;
             this.Txt_descripcion.Name = "Txt_descripcion";
             this.Txt_descripcion.ReadOnly = true;
-            this.Txt_descripcion.Size = new System.Drawing.Size(224, 20);
+            this.Txt_descripcion.Size = new System.Drawing.Size(253, 20);
             this.Txt_descripcion.TabIndex = 1;
             // 
             // label2
@@ -324,24 +324,6 @@
             this.Btn_eliminar.UseVisualStyleBackColor = false;
             this.Btn_eliminar.Click += new System.EventHandler(this.Btn_eliminar_Click);
             // 
-            // Btn_reporte
-            // 
-            this.Btn_reporte.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(53)))), ((int)(((byte)(66)))));
-            this.Btn_reporte.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.Btn_reporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_reporte.ForeColor = System.Drawing.Color.White;
-            this.Btn_reporte.ImageKey = "documento.png";
-            this.Btn_reporte.ImageList = this.imageList1;
-            this.Btn_reporte.Location = new System.Drawing.Point(302, 416);
-            this.Btn_reporte.Name = "Btn_reporte";
-            this.Btn_reporte.Size = new System.Drawing.Size(75, 60);
-            this.Btn_reporte.TabIndex = 4;
-            this.Btn_reporte.Text = "Reporte";
-            this.Btn_reporte.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.Btn_reporte.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.Btn_reporte.UseVisualStyleBackColor = false;
-            this.Btn_reporte.Click += new System.EventHandler(this.Btn_reporte_Click);
-            // 
             // Btn_salir
             // 
             this.Btn_salir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(53)))), ((int)(((byte)(66)))));
@@ -350,7 +332,7 @@
             this.Btn_salir.ForeColor = System.Drawing.Color.White;
             this.Btn_salir.ImageKey = "exit.png";
             this.Btn_salir.ImageList = this.imageList1;
-            this.Btn_salir.Location = new System.Drawing.Point(394, 416);
+            this.Btn_salir.Location = new System.Drawing.Point(294, 416);
             this.Btn_salir.Name = "Btn_salir";
             this.Btn_salir.Size = new System.Drawing.Size(75, 60);
             this.Btn_salir.TabIndex = 5;
@@ -388,7 +370,6 @@
             this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.Pnl_titulo_form);
             this.Controls.Add(this.Btn_salir);
-            this.Controls.Add(this.Btn_reporte);
             this.Controls.Add(this.Btn_eliminar);
             this.Controls.Add(this.Btn_actualizar);
             this.Controls.Add(this.Btn_nuevo);
@@ -427,7 +408,6 @@
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.Button Btn_actualizar;
         private System.Windows.Forms.Button Btn_eliminar;
-        private System.Windows.Forms.Button Btn_reporte;
         private System.Windows.Forms.Button Btn_salir;
         private System.Windows.Forms.Panel Pnl_titulo_form;
         private System.Windows.Forms.Label label3;

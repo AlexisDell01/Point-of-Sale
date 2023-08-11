@@ -114,12 +114,12 @@
             // 
             // Btn_buscar
             // 
-            this.Btn_buscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(105)))), ((int)(((byte)(141)))));
+            this.Btn_buscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(130)))), ((int)(((byte)(174)))));
             this.Btn_buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_buscar.ForeColor = System.Drawing.Color.White;
             this.Btn_buscar.Location = new System.Drawing.Point(295, 35);
             this.Btn_buscar.Name = "Btn_buscar";
-            this.Btn_buscar.Size = new System.Drawing.Size(80, 27);
+            this.Btn_buscar.Size = new System.Drawing.Size(80, 24);
             this.Btn_buscar.TabIndex = 3;
             this.Btn_buscar.Text = "Buscar";
             this.Btn_buscar.UseVisualStyleBackColor = false;
@@ -192,14 +192,14 @@
             // 
             // Pnl_Listado_1
             // 
-            this.Pnl_Listado_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(169)))), ((int)(((byte)(177)))));
+            this.Pnl_Listado_1.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.Pnl_Listado_1.Controls.Add(this.Btn_retornar1);
             this.Pnl_Listado_1.Controls.Add(this.Dgv_1);
             this.Pnl_Listado_1.Controls.Add(this.label6);
             this.Pnl_Listado_1.Controls.Add(this.Btn_buscar1);
             this.Pnl_Listado_1.Controls.Add(this.Txt_buscar1);
             this.Pnl_Listado_1.Controls.Add(this.label5);
-            this.Pnl_Listado_1.Location = new System.Drawing.Point(334, 63);
+            this.Pnl_Listado_1.Location = new System.Drawing.Point(172, 57);
             this.Pnl_Listado_1.Name = "Pnl_Listado_1";
             this.Pnl_Listado_1.Size = new System.Drawing.Size(331, 232);
             this.Pnl_Listado_1.TabIndex = 10;
@@ -212,7 +212,7 @@
             this.Btn_retornar1.Image = ((System.Drawing.Image)(resources.GetObject("Btn_retornar1.Image")));
             this.Btn_retornar1.Location = new System.Drawing.Point(262, 28);
             this.Btn_retornar1.Name = "Btn_retornar1";
-            this.Btn_retornar1.Size = new System.Drawing.Size(29, 27);
+            this.Btn_retornar1.Size = new System.Drawing.Size(52, 24);
             this.Btn_retornar1.TabIndex = 13;
             this.Btn_retornar1.UseVisualStyleBackColor = true;
             this.Btn_retornar1.Click += new System.EventHandler(this.Btn_retornar1_Click);
@@ -225,7 +225,7 @@
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.LightCyan;
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
             this.Dgv_1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
-            this.Dgv_1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
+            this.Dgv_1.BackgroundColor = System.Drawing.Color.Silver;
             this.Dgv_1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Dgv_1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -252,8 +252,8 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(21, 8);
+            this.label6.ForeColor = System.Drawing.Color.Black;
+            this.label6.Location = new System.Drawing.Point(93, 3);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(152, 15);
             this.label6.TabIndex = 11;
@@ -265,9 +265,9 @@
             this.Btn_buscar1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn_buscar1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_buscar1.Image = global::Sol_PuntoVenta.Presentacion.Properties.Resources.mignifying_glass;
-            this.Btn_buscar1.Location = new System.Drawing.Point(227, 29);
+            this.Btn_buscar1.Location = new System.Drawing.Point(227, 30);
             this.Btn_buscar1.Name = "Btn_buscar1";
-            this.Btn_buscar1.Size = new System.Drawing.Size(29, 27);
+            this.Btn_buscar1.Size = new System.Drawing.Size(22, 24);
             this.Btn_buscar1.TabIndex = 10;
             this.Btn_buscar1.UseVisualStyleBackColor = false;
             this.Btn_buscar1.Click += new System.EventHandler(this.Btn_buscar1_Click);
@@ -282,7 +282,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(14, 36);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(43, 13);
@@ -295,9 +295,9 @@
             this.Btn_lupa1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn_lupa1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_lupa1.Image = global::Sol_PuntoVenta.Presentacion.Properties.Resources.mignifying_glass;
-            this.Btn_lupa1.Location = new System.Drawing.Point(323, 76);
+            this.Btn_lupa1.Location = new System.Drawing.Point(354, 75);
             this.Btn_lupa1.Name = "Btn_lupa1";
-            this.Btn_lupa1.Size = new System.Drawing.Size(29, 27);
+            this.Btn_lupa1.Size = new System.Drawing.Size(22, 24);
             this.Btn_lupa1.TabIndex = 2;
             this.Btn_lupa1.UseVisualStyleBackColor = false;
             this.Btn_lupa1.Visible = false;
@@ -308,7 +308,7 @@
             this.Txt_familia.Location = new System.Drawing.Point(94, 78);
             this.Txt_familia.Name = "Txt_familia";
             this.Txt_familia.ReadOnly = true;
-            this.Txt_familia.Size = new System.Drawing.Size(224, 20);
+            this.Txt_familia.Size = new System.Drawing.Size(254, 20);
             this.Txt_familia.TabIndex = 1;
             // 
             // label4
@@ -322,7 +322,7 @@
             // 
             // Btn_retornar
             // 
-            this.Btn_retornar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(153)))), ((int)(((byte)(117)))));
+            this.Btn_retornar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Btn_retornar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_retornar.ForeColor = System.Drawing.Color.White;
             this.Btn_retornar.Location = new System.Drawing.Point(268, 139);
@@ -336,7 +336,7 @@
             // 
             // Btn_guardar
             // 
-            this.Btn_guardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(130)))), ((int)(((byte)(174)))));
+            this.Btn_guardar.BackColor = System.Drawing.Color.Blue;
             this.Btn_guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_guardar.ForeColor = System.Drawing.Color.White;
             this.Btn_guardar.Location = new System.Drawing.Point(182, 139);
@@ -350,7 +350,7 @@
             // 
             // Btn_cancelar
             // 
-            this.Btn_cancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(71)))), ((int)(((byte)(87)))));
+            this.Btn_cancelar.BackColor = System.Drawing.Color.Red;
             this.Btn_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_cancelar.ForeColor = System.Drawing.Color.White;
             this.Btn_cancelar.Location = new System.Drawing.Point(96, 139);
@@ -368,7 +368,7 @@
             this.Txt_descripcion.MaxLength = 30;
             this.Txt_descripcion.Name = "Txt_descripcion";
             this.Txt_descripcion.ReadOnly = true;
-            this.Txt_descripcion.Size = new System.Drawing.Size(224, 20);
+            this.Txt_descripcion.Size = new System.Drawing.Size(253, 20);
             this.Txt_descripcion.TabIndex = 3;
             // 
             // label2

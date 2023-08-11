@@ -1007,5 +1007,10 @@ namespace Sol_PuntoVenta.Presentacion.Procesos
         {
 
         }
+
+        private void Lbl_codigo_pv_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -52,7 +52,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.Btn_nuevo = new System.Windows.Forms.Button();
             this.Btn_salir = new System.Windows.Forms.Button();
-            this.Btn_reporte = new System.Windows.Forms.Button();
             this.Btn_eliminar = new System.Windows.Forms.Button();
             this.Btn_actualizar = new System.Windows.Forms.Button();
             this.Tbc_principal.SuspendLayout();
@@ -82,7 +81,7 @@
             this.tabPage1.Controls.Add(this.Dgv_Listado);
             this.tabPage1.Location = new System.Drawing.Point(4, 34);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(688, 320);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Consultas";
@@ -170,7 +169,7 @@
             this.tabPage2.Controls.Add(this.label2);
             this.tabPage2.Location = new System.Drawing.Point(4, 34);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(688, 320);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Mantenimiento";
@@ -316,7 +315,7 @@
             this.Btn_salir.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Btn_salir.ImageKey = "exit.png";
             this.Btn_salir.ImageList = this.imageList1;
-            this.Btn_salir.Location = new System.Drawing.Point(340, 416);
+            this.Btn_salir.Location = new System.Drawing.Point(259, 416);
             this.Btn_salir.Name = "Btn_salir";
             this.Btn_salir.Size = new System.Drawing.Size(75, 60);
             this.Btn_salir.TabIndex = 5;
@@ -325,24 +324,6 @@
             this.Btn_salir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Btn_salir.UseVisualStyleBackColor = false;
             this.Btn_salir.Click += new System.EventHandler(this.Btn_salir_Click);
-            // 
-            // Btn_reporte
-            // 
-            this.Btn_reporte.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(53)))), ((int)(((byte)(66)))));
-            this.Btn_reporte.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.Btn_reporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_reporte.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btn_reporte.ImageKey = "documento.png";
-            this.Btn_reporte.ImageList = this.imageList1;
-            this.Btn_reporte.Location = new System.Drawing.Point(259, 416);
-            this.Btn_reporte.Name = "Btn_reporte";
-            this.Btn_reporte.Size = new System.Drawing.Size(75, 60);
-            this.Btn_reporte.TabIndex = 4;
-            this.Btn_reporte.Text = "Reporte";
-            this.Btn_reporte.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.Btn_reporte.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.Btn_reporte.UseVisualStyleBackColor = false;
-            this.Btn_reporte.Click += new System.EventHandler(this.Btn_reporte_Click);
             // 
             // Btn_eliminar
             // 
@@ -387,7 +368,6 @@
             this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.Pnl_titulo_form);
             this.Controls.Add(this.Btn_salir);
-            this.Controls.Add(this.Btn_reporte);
             this.Controls.Add(this.Btn_eliminar);
             this.Controls.Add(this.Btn_actualizar);
             this.Controls.Add(this.Btn_nuevo);
@@ -426,7 +406,6 @@
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.Button Btn_actualizar;
         private System.Windows.Forms.Button Btn_eliminar;
-        private System.Windows.Forms.Button Btn_reporte;
         private System.Windows.Forms.Button Btn_salir;
         private System.Windows.Forms.Panel Pnl_titulo_form;
         private System.Windows.Forms.Label label3;

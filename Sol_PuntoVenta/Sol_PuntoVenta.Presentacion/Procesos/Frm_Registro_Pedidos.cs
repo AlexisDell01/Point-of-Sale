@@ -236,5 +236,10 @@ namespace Sol_PuntoVenta.Presentacion.Procesos
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
