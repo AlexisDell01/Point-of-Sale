@@ -18,9 +18,9 @@ namespace Sol_PuntoVenta.Datos
         private Conexion()
         {
             this.Base = "BD_PUNTOVENTA";
-            this.Servidor = "LAPTOP-SAH8I97I\\SQLEXPRESS";
-            this.Usuario = "LAPTOP-SAH8I97I\\angel";
-            this.Clave = "";
+            this.Servidor = "DESKTOP-EU28PFF\\SQLEXPRESS";
+            this.Usuario = "user";
+            this.Clave = "123";
         }
 
         public SqlConnection CrearConexion()

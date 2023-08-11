@@ -60,13 +60,15 @@
             this.lbl_Puesto_Usuario = new System.Windows.Forms.Label();
             this.lbl_Sesion_Usuario = new System.Windows.Forms.Label();
             this.Grb_fechayhora = new System.Windows.Forms.GroupBox();
-            this.lbl_fecha = new System.Windows.Forms.Label();
+            this.Lbl_fecha = new System.Windows.Forms.Label();
             this.Lbl_hora = new System.Windows.Forms.Label();
             this.Pnl_contenido = new System.Windows.Forms.Panel();
             this.Pnl_logosistema = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.Lbl_NombreUsuario = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.Pnl_menu.SuspendLayout();
             this.Pnl_datosmaestros.SuspendLayout();
             this.Pnl_procesos.SuspendLayout();
@@ -590,6 +592,8 @@
             // Pnl_barraestado
             // 
             this.Pnl_barraestado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
+            this.Pnl_barraestado.Controls.Add(this.label4);
+            this.Pnl_barraestado.Controls.Add(this.Lbl_NombreUsuario);
             this.Pnl_barraestado.Controls.Add(this.lbl_Puesto_Usuario);
             this.Pnl_barraestado.Controls.Add(this.lbl_Sesion_Usuario);
             this.Pnl_barraestado.Controls.Add(this.Grb_fechayhora);
@@ -607,9 +611,9 @@
             this.lbl_Puesto_Usuario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lbl_Puesto_Usuario.Location = new System.Drawing.Point(15, 48);
             this.lbl_Puesto_Usuario.Name = "lbl_Puesto_Usuario";
-            this.lbl_Puesto_Usuario.Size = new System.Drawing.Size(175, 23);
+            this.lbl_Puesto_Usuario.Size = new System.Drawing.Size(104, 23);
             this.lbl_Puesto_Usuario.TabIndex = 2;
-            this.lbl_Puesto_Usuario.Text = " Cargo: Admin";
+            this.lbl_Puesto_Usuario.Text = " Cargo:";
             this.lbl_Puesto_Usuario.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lbl_Sesion_Usuario
@@ -620,16 +624,16 @@
             this.lbl_Sesion_Usuario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lbl_Sesion_Usuario.Location = new System.Drawing.Point(15, 9);
             this.lbl_Sesion_Usuario.Name = "lbl_Sesion_Usuario";
-            this.lbl_Sesion_Usuario.Size = new System.Drawing.Size(188, 23);
+            this.lbl_Sesion_Usuario.Size = new System.Drawing.Size(117, 23);
             this.lbl_Sesion_Usuario.TabIndex = 1;
-            this.lbl_Sesion_Usuario.Text = "Usuario: Admin";
+            this.lbl_Sesion_Usuario.Text = "Usuario:";
             this.lbl_Sesion_Usuario.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.lbl_Sesion_Usuario.Click += new System.EventHandler(this.label4_Click);
             // 
             // Grb_fechayhora
             // 
             this.Grb_fechayhora.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Grb_fechayhora.Controls.Add(this.lbl_fecha);
+            this.Grb_fechayhora.Controls.Add(this.Lbl_fecha);
             this.Grb_fechayhora.Controls.Add(this.Lbl_hora);
             this.Grb_fechayhora.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Grb_fechayhora.ForeColor = System.Drawing.Color.White;
@@ -641,16 +645,16 @@
             this.Grb_fechayhora.Text = "Fecha y Hora";
             this.Grb_fechayhora.Enter += new System.EventHandler(this.Grb_fechayhora_Enter);
             // 
-            // lbl_fecha
+            // Lbl_fecha
             // 
-            this.lbl_fecha.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_fecha.Location = new System.Drawing.Point(4, 39);
-            this.lbl_fecha.Name = "lbl_fecha";
-            this.lbl_fecha.Size = new System.Drawing.Size(253, 28);
-            this.lbl_fecha.TabIndex = 1;
-            this.lbl_fecha.Text = "Fecha";
-            this.lbl_fecha.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl_fecha.Click += new System.EventHandler(this.lbl_fecha_Click_1);
+            this.Lbl_fecha.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_fecha.Location = new System.Drawing.Point(4, 39);
+            this.Lbl_fecha.Name = "Lbl_fecha";
+            this.Lbl_fecha.Size = new System.Drawing.Size(253, 28);
+            this.Lbl_fecha.TabIndex = 1;
+            this.Lbl_fecha.Text = "Fecha";
+            this.Lbl_fecha.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Lbl_fecha.Click += new System.EventHandler(this.lbl_fecha_Click_1);
             // 
             // Lbl_hora
             // 
@@ -716,6 +720,29 @@
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // Lbl_NombreUsuario
+            // 
+            this.Lbl_NombreUsuario.AutoSize = true;
+            this.Lbl_NombreUsuario.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_NombreUsuario.ForeColor = System.Drawing.Color.White;
+            this.Lbl_NombreUsuario.Location = new System.Drawing.Point(123, 9);
+            this.Lbl_NombreUsuario.Name = "Lbl_NombreUsuario";
+            this.Lbl_NombreUsuario.Size = new System.Drawing.Size(0, 26);
+            this.Lbl_NombreUsuario.TabIndex = 3;
+            this.Lbl_NombreUsuario.Click += new System.EventHandler(this.Lbl_NombreUsuario_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(124, 50);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(88, 26);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "CAJERO";
+            this.label4.Click += new System.EventHandler(this.label4_Click_1);
+            // 
             // Frm_DashBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -737,6 +764,7 @@
             this.Pnl_titulo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.IconoSeleccionado)).EndInit();
             this.Pnl_barraestado.ResumeLayout(false);
+            this.Pnl_barraestado.PerformLayout();
             this.Grb_fechayhora.ResumeLayout(false);
             this.Pnl_contenido.ResumeLayout(false);
             this.Pnl_logosistema.ResumeLayout(false);
@@ -783,6 +811,8 @@
         private FontAwesome.Sharp.IconButton PR_registrarpedido;
         private System.Windows.Forms.Label lbl_Sesion_Usuario;
         private System.Windows.Forms.Label lbl_Puesto_Usuario;
-        private System.Windows.Forms.Label lbl_fecha;
+        private System.Windows.Forms.Label Lbl_fecha;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label Lbl_NombreUsuario;
     }
 }

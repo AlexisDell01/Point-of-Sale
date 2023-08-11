@@ -16,7 +16,8 @@ namespace Sol_PuntoVenta.Presentacion
     {
         private IconButton currentBtn;
         private Panel leftBorderBtn;
-        public Frm_DashBoard()
+        public string NombreUsuario { get; set; }
+        public Frm_DashBoard(string nombreUsuario)
         {
             InitializeComponent();
             CustomizeDesing();
@@ -28,6 +29,9 @@ namespace Sol_PuntoVenta.Presentacion
             this.ControlBox = false;
             this.DoubleBuffered = true;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
+
+            NombreUsuario = nombreUsuario; // Asigna el valor del nombre de usuario
+            Lbl_NombreUsuario.Text = NombreUsuario; // Muestra el nombre de usuario en el label
         }
 
         #region "Mis Métodos"
@@ -313,6 +317,16 @@ namespace Sol_PuntoVenta.Presentacion
         }
 
         private void lbl_fecha_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Lbl_NombreUsuario_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click_1(object sender, EventArgs e)
         {
 
         }

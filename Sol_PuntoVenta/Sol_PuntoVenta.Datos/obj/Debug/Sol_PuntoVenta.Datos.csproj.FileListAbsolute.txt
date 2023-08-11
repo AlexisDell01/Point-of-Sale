@@ -43,3 +43,12 @@ C:\Users\angel\source\repos\AlexisDell01\Point-of-Sale\Sol_PuntoVenta\Sol_PuntoV
 C:\Users\angel\source\repos\AlexisDell01\Point-of-Sale\Sol_PuntoVenta\Sol_PuntoVenta.Datos\obj\Debug\Sol_PuntoVenta.Datos.csproj.CopyComplete
 C:\Users\angel\source\repos\AlexisDell01\Point-of-Sale\Sol_PuntoVenta\Sol_PuntoVenta.Datos\obj\Debug\Sol_PuntoVenta.Datos.dll
 C:\Users\angel\source\repos\AlexisDell01\Point-of-Sale\Sol_PuntoVenta\Sol_PuntoVenta.Datos\obj\Debug\Sol_PuntoVenta.Datos.pdb
+C:\Users\alexi\Source\Repos\AlexisDell01\Point-of-Sale\Sol_PuntoVenta\Sol_PuntoVenta.Datos\bin\Debug\Sol_PuntoVenta.Datos.dll
+C:\Users\alexi\Source\Repos\AlexisDell01\Point-of-Sale\Sol_PuntoVenta\Sol_PuntoVenta.Datos\bin\Debug\Sol_PuntoVenta.Datos.pdb
+C:\Users\alexi\Source\Repos\AlexisDell01\Point-of-Sale\Sol_PuntoVenta\Sol_PuntoVenta.Datos\bin\Debug\Sol_PuntoVenta.Entidades.dll
+C:\Users\alexi\Source\Repos\AlexisDell01\Point-of-Sale\Sol_PuntoVenta\Sol_PuntoVenta.Datos\bin\Debug\Sol_PuntoVenta.Entidades.pdb
+C:\Users\alexi\Source\Repos\AlexisDell01\Point-of-Sale\Sol_PuntoVenta\Sol_PuntoVenta.Datos\obj\Debug\Sol_PuntoVenta.Datos.csproj.AssemblyReference.cache
+C:\Users\alexi\Source\Repos\AlexisDell01\Point-of-Sale\Sol_PuntoVenta\Sol_PuntoVenta.Datos\obj\Debug\Sol_PuntoVenta.Datos.csproj.CoreCompileInputs.cache
+C:\Users\alexi\Source\Repos\AlexisDell01\Point-of-Sale\Sol_PuntoVenta\Sol_PuntoVenta.Datos\obj\Debug\Sol_PuntoVenta.Datos.csproj.CopyComplete
+C:\Users\alexi\Source\Repos\AlexisDell01\Point-of-Sale\Sol_PuntoVenta\Sol_PuntoVenta.Datos\obj\Debug\Sol_PuntoVenta.Datos.dll
+C:\Users\alexi\Source\Repos\AlexisDell01\Point-of-Sale\Sol_PuntoVenta\Sol_PuntoVenta.Datos\obj\Debug\Sol_PuntoVenta.Datos.pdb
