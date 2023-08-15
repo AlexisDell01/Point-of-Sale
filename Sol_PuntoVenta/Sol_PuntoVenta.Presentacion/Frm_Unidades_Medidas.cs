@@ -58,7 +58,7 @@ namespace Sol_PuntoVenta.Presentacion
             Btn_nuevo.Enabled = lEstado;
             Btn_actualizar.Enabled = lEstado;
             Btn_eliminar.Enabled = lEstado;
-            Btn_reporte.Enabled = lEstado;
+           
             Btn_salir.Enabled = lEstado;
         }
 

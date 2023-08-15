@@ -57,6 +57,8 @@
             this.IconoSeleccionado = new FontAwesome.Sharp.IconPictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.Pnl_barraestado = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.Lbl_NombreUsuario = new System.Windows.Forms.Label();
             this.lbl_Puesto_Usuario = new System.Windows.Forms.Label();
             this.lbl_Sesion_Usuario = new System.Windows.Forms.Label();
             this.Grb_fechayhora = new System.Windows.Forms.GroupBox();
@@ -67,8 +69,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.Lbl_NombreUsuario = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.Pnl_menu.SuspendLayout();
             this.Pnl_datosmaestros.SuspendLayout();
             this.Pnl_procesos.SuspendLayout();
@@ -603,6 +603,29 @@
             this.Pnl_barraestado.Size = new System.Drawing.Size(798, 90);
             this.Pnl_barraestado.TabIndex = 2;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(114, 48);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(73, 26);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Cajero";
+            this.label4.Click += new System.EventHandler(this.label4_Click_1);
+            // 
+            // Lbl_NombreUsuario
+            // 
+            this.Lbl_NombreUsuario.AutoSize = true;
+            this.Lbl_NombreUsuario.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_NombreUsuario.ForeColor = System.Drawing.Color.White;
+            this.Lbl_NombreUsuario.Location = new System.Drawing.Point(123, 9);
+            this.Lbl_NombreUsuario.Name = "Lbl_NombreUsuario";
+            this.Lbl_NombreUsuario.Size = new System.Drawing.Size(0, 26);
+            this.Lbl_NombreUsuario.TabIndex = 3;
+            this.Lbl_NombreUsuario.Click += new System.EventHandler(this.Lbl_NombreUsuario_Click);
+            // 
             // lbl_Puesto_Usuario
             // 
             this.lbl_Puesto_Usuario.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -719,29 +742,6 @@
             // 
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // Lbl_NombreUsuario
-            // 
-            this.Lbl_NombreUsuario.AutoSize = true;
-            this.Lbl_NombreUsuario.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_NombreUsuario.ForeColor = System.Drawing.Color.White;
-            this.Lbl_NombreUsuario.Location = new System.Drawing.Point(123, 9);
-            this.Lbl_NombreUsuario.Name = "Lbl_NombreUsuario";
-            this.Lbl_NombreUsuario.Size = new System.Drawing.Size(0, 26);
-            this.Lbl_NombreUsuario.TabIndex = 3;
-            this.Lbl_NombreUsuario.Click += new System.EventHandler(this.Lbl_NombreUsuario_Click);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(124, 50);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(88, 26);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "CAJERO";
-            this.label4.Click += new System.EventHandler(this.label4_Click_1);
             // 
             // Frm_DashBoard
             // 

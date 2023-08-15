@@ -172,7 +172,7 @@ namespace Sol_PuntoVenta.Presentacion
             Btn_nuevo.Enabled = lEstado;
             Btn_actualizar.Enabled = lEstado;
             Btn_eliminar.Enabled = lEstado;
-            Btn_reporte.Enabled = lEstado;
+      
             Btn_salir.Enabled = lEstado;
         }
 
@@ -663,6 +663,11 @@ namespace Sol_PuntoVenta.Presentacion
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Dgv_Listado_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

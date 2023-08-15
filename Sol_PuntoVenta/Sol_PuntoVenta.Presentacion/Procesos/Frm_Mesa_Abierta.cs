@@ -890,10 +890,6 @@ namespace Sol_PuntoVenta.Presentacion.Procesos
                 Dgv_tickets.Enabled = false;
 
                 Btn_anularpedido.Enabled = false;
-                Btn_emitirdocumento.Enabled = false;
-                Btn_dividir_precuenta.Enabled = false;
-                Btn_boleta.Enabled = false;
-                Btn_factura.Enabled = false;
 
                 Pnl_observacion_anulado.Visible = true;
                
@@ -908,10 +904,7 @@ namespace Sol_PuntoVenta.Presentacion.Procesos
             Dgv_tickets.Enabled = true;
 
             Btn_anularpedido.Enabled = true;
-            Btn_emitirdocumento.Enabled = true;
-            Btn_dividir_precuenta.Enabled = true;
-            Btn_boleta.Enabled = true;
-            Btn_factura.Enabled = true;
+    
         }
 
         private void Btn_confirmar_anulado_Click(object sender, EventArgs e)
@@ -968,10 +961,6 @@ namespace Sol_PuntoVenta.Presentacion.Procesos
                         Dgv_tickets.Enabled = true;
 
                         Btn_anularpedido.Enabled = true;
-                        Btn_emitirdocumento.Enabled = true;
-                        Btn_dividir_precuenta.Enabled = true;
-                        Btn_boleta.Enabled = true;
-                        Btn_factura.Enabled = true;
 
                         MessageBox.Show("Ticket anulado",
                                         "Aviso del Sistema",
@@ -988,10 +977,6 @@ namespace Sol_PuntoVenta.Presentacion.Procesos
 
         }
 
-        private void Btn_factura_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void panel6_Paint(object sender, PaintEventArgs e)
         {
@@ -1004,6 +989,16 @@ namespace Sol_PuntoVenta.Presentacion.Procesos
         }
 
         private void label20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Pnl_visualizar_pedidos_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Lbl_cantidad_Click(object sender, EventArgs e)
         {
 
         }

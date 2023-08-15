@@ -58,7 +58,7 @@ namespace Sol_PuntoVenta.Presentacion
             Btn_nuevo.Enabled = lEstado;
             Btn_actualizar.Enabled = lEstado;
             Btn_eliminar.Enabled = lEstado;
-            Btn_reporte.Enabled = lEstado;
+            
             Btn_salir.Enabled = lEstado;
         }
 
@@ -231,15 +231,7 @@ namespace Sol_PuntoVenta.Presentacion
             this.Listado_ma(Txt_buscar.Text.Trim());
         }
 
-        private void Btn_reporte_Click(object sender, EventArgs e)
-        {
-            if (Dgv_Listado.Rows.Count>0)
-            {
-                Reportes.Frm_Rpt_Marcas oRpt_ma = new Reportes.Frm_Rpt_Marcas();
-                oRpt_ma.Txt_p1.Text = Txt_buscar.Text.Trim();
-                oRpt_ma.ShowDialog();
-            }
-        }
+        
 
         private void Btn_salir_Click(object sender, EventArgs e)
         {

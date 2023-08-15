@@ -60,7 +60,10 @@ namespace Sol_PuntoVenta.Presentacion
             }
             else
             {
-                MessageBox.Show("Credenciales incorrectas. Intente nuevamente.");
+                string errorMessage = "⚠️ Contraseña y/o usuario incorrecto. Verifica tus credenciales e intenta nuevamente.";
+                MessageBox.Show(errorMessage, "Error de Credenciales", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                Txt_login_us.Text = "";
+                Txt_Password_us.Text = "";
             }
         }
 
